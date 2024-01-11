@@ -9,7 +9,6 @@ PRODUCT_COPY_FILES += \
     vendor/realme/sm8250-common/proprietary/etc/permissions/privapp-permissions-qti.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/privapp-permissions-qti.xml \
     vendor/realme/sm8250-common/proprietary/etc/sysconfig/qti_whitelist.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/sysconfig/qti_whitelist.xml \
     vendor/realme/sm8250-common/proprietary/odm/bin/hw/android.hardware.drm@1.3-service.widevine:$(TARGET_COPY_OUT_ODM)/bin/hw/android.hardware.drm@1.3-service.widevine \
-    vendor/realme/sm8250-common/proprietary/odm/bin/hw/vendor.dolby_v3_6.hardware.dms360@2.0-service:$(TARGET_COPY_OUT_ODM)/bin/hw/vendor.dolby_v3_6.hardware.dms360@2.0-service \
     vendor/realme/sm8250-common/proprietary/odm/bin/hw/vendor.oplus.hardware.biometrics.fingerprint@2.1-service:$(TARGET_COPY_OUT_ODM)/bin/hw/vendor.oplus.hardware.biometrics.fingerprint@2.1-service \
     vendor/realme/sm8250-common/proprietary/odm/bin/hw/vendor.oplus.hardware.oplusSensor@1.0-service:$(TARGET_COPY_OUT_ODM)/bin/hw/vendor.oplus.hardware.oplusSensor@1.0-service \
     vendor/realme/sm8250-common/proprietary/odm/bin/hw/vendor.qti.esepowermanager@1.1-service:$(TARGET_COPY_OUT_ODM)/bin/hw/vendor.qti.esepowermanager@1.1-service \
@@ -18,61 +17,43 @@ PRODUCT_COPY_FILES += \
     vendor/realme/sm8250-common/proprietary/odm/bin/oemnvbkdaemon:$(TARGET_COPY_OUT_ODM)/bin/oemnvbkdaemon \
     vendor/realme/sm8250-common/proprietary/odm/bin/oplus_sensor_fb:$(TARGET_COPY_OUT_ODM)/bin/oplus_sensor_fb \
     vendor/realme/sm8250-common/proprietary/odm/bin/vl53l1_daemon_main:$(TARGET_COPY_OUT_ODM)/bin/vl53l1_daemon_main \
-    vendor/realme/sm8250-common/proprietary/odm/etc/audio_effects.xml:$(TARGET_COPY_OUT_ODM)/etc/audio_effects.xml \
     vendor/realme/sm8250-common/proprietary/odm/etc/camera/CameraHWConfiguration.config:$(TARGET_COPY_OUT_ODM)/etc/camera/CameraHWConfiguration.config \
-    vendor/realme/sm8250-common/proprietary/odm/etc/camera/M_Attribute_AG_BMW_1.1.0.model.hardcode:$(TARGET_COPY_OUT_ODM)/etc/camera/M_Attribute_AG_BMW_1.1.0.model.hardcode \
     vendor/realme/sm8250-common/proprietary/odm/etc/camera/M_Attribute_AG_BMW_1.1.0.model.hardcode:$(TARGET_COPY_OUT_ODM)/etc/camera/M_Attribute_AG_BMW_1.1.0.model.hardcode \
     vendor/realme/sm8250-common/proprietary/odm/etc/camera/aicolor/duallut_background.bmp:$(TARGET_COPY_OUT_ODM)/etc/camera/aicolor/duallut_background.bmp \
     vendor/realme/sm8250-common/proprietary/odm/etc/camera/aicolor/duallut_portrait.bmp:$(TARGET_COPY_OUT_ODM)/etc/camera/aicolor/duallut_portrait.bmp \
-    vendor/realme/sm8250-common/proprietary/odm/etc/camera/anc/fusion_model_post:$(TARGET_COPY_OUT_ODM)/etc/camera/anc/fusion_model_post \
     vendor/realme/sm8250-common/proprietary/odm/etc/camera/anc/fusion_model:$(TARGET_COPY_OUT_ODM)/etc/camera/anc/fusion_model \
-    vendor/realme/sm8250-common/proprietary/odm/etc/camera/anc/merged_model_post:$(TARGET_COPY_OUT_ODM)/etc/camera/anc/merged_model_post \
+    vendor/realme/sm8250-common/proprietary/odm/etc/camera/anc/fusion_model_post:$(TARGET_COPY_OUT_ODM)/etc/camera/anc/fusion_model_post \
     vendor/realme/sm8250-common/proprietary/odm/etc/camera/anc/merged_model:$(TARGET_COPY_OUT_ODM)/etc/camera/anc/merged_model \
-    vendor/realme/sm8250-common/proprietary/odm/etc/camera/anc/video_retention_model_post:$(TARGET_COPY_OUT_ODM)/etc/camera/anc/video_retention_model_post \
+    vendor/realme/sm8250-common/proprietary/odm/etc/camera/anc/merged_model_post:$(TARGET_COPY_OUT_ODM)/etc/camera/anc/merged_model_post \
     vendor/realme/sm8250-common/proprietary/odm/etc/camera/anc/video_retention_model:$(TARGET_COPY_OUT_ODM)/etc/camera/anc/video_retention_model \
+    vendor/realme/sm8250-common/proprietary/odm/etc/camera/anc/video_retention_model_post:$(TARGET_COPY_OUT_ODM)/etc/camera/anc/video_retention_model_post \
     vendor/realme/sm8250-common/proprietary/odm/etc/camera/anc/videolut_background.png:$(TARGET_COPY_OUT_ODM)/etc/camera/anc/videolut_background.png \
     vendor/realme/sm8250-common/proprietary/odm/etc/camera/anc/videolut_portrait.png:$(TARGET_COPY_OUT_ODM)/etc/camera/anc/videolut_portrait.png \
     vendor/realme/sm8250-common/proprietary/odm/etc/camera/anc/videolut_portrait_front.png:$(TARGET_COPY_OUT_ODM)/etc/camera/anc/videolut_portrait_front.png \
     vendor/realme/sm8250-common/proprietary/odm/etc/camera/anc_cl_kernel.cache:$(TARGET_COPY_OUT_ODM)/etc/camera/anc_cl_kernel.cache \
-    vendor/realme/sm8250-common/proprietary/odm/etc/camera/anc_cl_kernel.cache:$(TARGET_COPY_OUT_ODM)/etc/camera/anc_cl_kernel.cache \
-    vendor/realme/sm8250-common/proprietary/odm/etc/camera/anc_cl_kernel_ins.cache:$(TARGET_COPY_OUT_ODM)/etc/camera/anc_cl_kernel_ins.cache \
     vendor/realme/sm8250-common/proprietary/odm/etc/camera/anc_cl_kernel_ins.cache:$(TARGET_COPY_OUT_ODM)/etc/camera/anc_cl_kernel_ins.cache \
     vendor/realme/sm8250-common/proprietary/odm/etc/camera/ancsegbase/anc_cl_kernel.cache:$(TARGET_COPY_OUT_ODM)/etc/camera/ancsegbase/anc_cl_kernel.cache \
-    vendor/realme/sm8250-common/proprietary/odm/etc/camera/ancsegbase/anc_cl_kernel.cache:$(TARGET_COPY_OUT_ODM)/etc/camera/ancsegbase/anc_cl_kernel.cache \
-    vendor/realme/sm8250-common/proprietary/odm/etc/camera/ancsegbase/model.data:$(TARGET_COPY_OUT_ODM)/etc/camera/ancsegbase/model.data \
     vendor/realme/sm8250-common/proprietary/odm/etc/camera/ancsegbase/model.data:$(TARGET_COPY_OUT_ODM)/etc/camera/ancsegbase/model.data \
     vendor/realme/sm8250-common/proprietary/odm/etc/camera/asd/class.dlc:$(TARGET_COPY_OUT_ODM)/etc/camera/asd/class.dlc \
-    vendor/realme/sm8250-common/proprietary/odm/etc/camera/asd/class.dlc:$(TARGET_COPY_OUT_ODM)/etc/camera/asd/class.dlc \
     vendor/realme/sm8250-common/proprietary/odm/etc/camera/asd/detect.dlc:$(TARGET_COPY_OUT_ODM)/etc/camera/asd/detect.dlc \
-    vendor/realme/sm8250-common/proprietary/odm/etc/camera/asd/detect.dlc:$(TARGET_COPY_OUT_ODM)/etc/camera/asd/detect.dlc \
-    vendor/realme/sm8250-common/proprietary/odm/etc/camera/ashdr/ncf_pack.ncf:$(TARGET_COPY_OUT_ODM)/etc/camera/ashdr/ncf_pack.ncf \
     vendor/realme/sm8250-common/proprietary/odm/etc/camera/ashdr/ncf_pack.ncf:$(TARGET_COPY_OUT_ODM)/etc/camera/ashdr/ncf_pack.ncf \
     vendor/realme/sm8250-common/proprietary/odm/etc/camera/camera_engmode.xml:$(TARGET_COPY_OUT_ODM)/etc/camera/camera_engmode.xml \
-    vendor/realme/sm8250-common/proprietary/odm/etc/camera/cfr_bin/CFR_OPlus_EF017_UW_snapshot.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/cfr_bin/CFR_OPlus_EF017_UW_snapshot.bin \
     vendor/realme/sm8250-common/proprietary/odm/etc/camera/cfr_bin/CFR_OPlus_EF017_UW_snapshot.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/cfr_bin/CFR_OPlus_EF017_UW_snapshot.bin \
     vendor/realme/sm8250-common/proprietary/odm/etc/camera/config/camera_unit_config:$(TARGET_COPY_OUT_ODM)/etc/camera/config/camera_unit_config \
     vendor/realme/sm8250-common/proprietary/odm/etc/camera/config/camera_unit_feature_config.protobuf:$(TARGET_COPY_OUT_ODM)/etc/camera/config/camera_unit_feature_config.protobuf \
     vendor/realme/sm8250-common/proprietary/odm/etc/camera/config/hi846:$(TARGET_COPY_OUT_ODM)/etc/camera/config/hi846 \
     vendor/realme/sm8250-common/proprietary/odm/etc/camera/config/imx471:$(TARGET_COPY_OUT_ODM)/etc/camera/config/imx471 \
     vendor/realme/sm8250-common/proprietary/odm/etc/camera/config/oplus_camera_algo_switch_config:$(TARGET_COPY_OUT_ODM)/etc/camera/config/oplus_camera_algo_switch_config \
-    vendor/realme/sm8250-common/proprietary/odm/etc/camera/config/oplus_camera_algo_switch_config:$(TARGET_COPY_OUT_ODM)/etc/camera/config/oplus_camera_algo_switch_config \
     vendor/realme/sm8250-common/proprietary/odm/etc/camera/config/oplus_camera_aps_config:$(TARGET_COPY_OUT_ODM)/etc/camera/config/oplus_camera_aps_config \
     vendor/realme/sm8250-common/proprietary/odm/etc/camera/config/oplus_camera_config:$(TARGET_COPY_OUT_ODM)/etc/camera/config/oplus_camera_config \
     vendor/realme/sm8250-common/proprietary/odm/etc/camera/config/ov02b:$(TARGET_COPY_OUT_ODM)/etc/camera/config/ov02b \
     vendor/realme/sm8250-common/proprietary/odm/etc/camera/config/ov64b:$(TARGET_COPY_OUT_ODM)/etc/camera/config/ov64b \
     vendor/realme/sm8250-common/proprietary/odm/etc/camera/config/video_beauty_default_config:$(TARGET_COPY_OUT_ODM)/etc/camera/config/video_beauty_default_config \
-    vendor/realme/sm8250-common/proprietary/odm/etc/camera/config/video_beauty_default_config:$(TARGET_COPY_OUT_ODM)/etc/camera/config/video_beauty_default_config \
-    vendor/realme/sm8250-common/proprietary/odm/etc/camera/darksight/darksight_main.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/darksight/darksight_main.bin \
     vendor/realme/sm8250-common/proprietary/odm/etc/camera/darksight/darksight_main.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/darksight/darksight_main.bin \
     vendor/realme/sm8250-common/proprietary/odm/etc/camera/darksight/darksight_ultrawide.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/darksight/darksight_ultrawide.bin \
-    vendor/realme/sm8250-common/proprietary/odm/etc/camera/darksight/darksight_ultrawide.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/darksight/darksight_ultrawide.bin \
-    vendor/realme/sm8250-common/proprietary/odm/etc/camera/distortionParams.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/distortionParams.bin \
     vendor/realme/sm8250-common/proprietary/odm/etc/camera/distortionParams.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/distortionParams.bin \
     vendor/realme/sm8250-common/proprietary/odm/etc/camera/dualcal_golden.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/dualcal_golden.bin \
-    vendor/realme/sm8250-common/proprietary/odm/etc/camera/dualcal_golden.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/dualcal_golden.bin \
     vendor/realme/sm8250-common/proprietary/odm/etc/camera/eis_camera.vcfg:$(TARGET_COPY_OUT_ODM)/etc/camera/eis_camera.vcfg \
-    vendor/realme/sm8250-common/proprietary/odm/etc/camera/eis_camera.vcfg:$(TARGET_COPY_OUT_ODM)/etc/camera/eis_camera.vcfg \
-    vendor/realme/sm8250-common/proprietary/odm/etc/camera/fb_default:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_default \
     vendor/realme/sm8250-common/proprietary/odm/etc/camera/fb_default:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_default \
     vendor/realme/sm8250-common/proprietary/odm/etc/camera/fb_model/000.png:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/000.png \
     vendor/realme/sm8250-common/proprietary/odm/etc/camera/fb_model/000_pre.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/000_pre.bin \
@@ -142,8 +123,6 @@ PRODUCT_COPY_FILES += \
     vendor/realme/sm8250-common/proprietary/odm/etc/camera/fb_model/skinmask.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/skinmask.bin \
     vendor/realme/sm8250-common/proprietary/odm/etc/camera/fb_model/skinmask.png:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/skinmask.png \
     vendor/realme/sm8250-common/proprietary/odm/etc/camera/fdc_cl.cache:$(TARGET_COPY_OUT_ODM)/etc/camera/fdc_cl.cache \
-    vendor/realme/sm8250-common/proprietary/odm/etc/camera/fdc_cl.cache:$(TARGET_COPY_OUT_ODM)/etc/camera/fdc_cl.cache \
-    vendor/realme/sm8250-common/proprietary/odm/etc/camera/fdc_lite_cl.cache:$(TARGET_COPY_OUT_ODM)/etc/camera/fdc_lite_cl.cache \
     vendor/realme/sm8250-common/proprietary/odm/etc/camera/fdc_lite_cl.cache:$(TARGET_COPY_OUT_ODM)/etc/camera/fdc_lite_cl.cache \
     vendor/realme/sm8250-common/proprietary/odm/etc/camera/filters_lut/B1VLf4peM:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/B1VLf4peM \
     vendor/realme/sm8250-common/proprietary/odm/etc/camera/filters_lut/B1aMqioxf:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/B1aMqioxf \
@@ -297,8 +276,6 @@ PRODUCT_COPY_FILES += \
     vendor/realme/sm8250-common/proprietary/odm/etc/camera/fw_lut/skinLUTs_yuv16_12.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/fw_lut/skinLUTs_yuv16_12.bin \
     vendor/realme/sm8250-common/proprietary/odm/etc/camera/fw_lut/skinLUTs_yuv16_13.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/fw_lut/skinLUTs_yuv16_13.bin \
     vendor/realme/sm8250-common/proprietary/odm/etc/camera/fwk_config.json:$(TARGET_COPY_OUT_ODM)/etc/camera/fwk_config.json \
-    vendor/realme/sm8250-common/proprietary/odm/etc/camera/fwk_config.json:$(TARGET_COPY_OUT_ODM)/etc/camera/fwk_config.json \
-    vendor/realme/sm8250-common/proprietary/odm/etc/camera/gasryuv_1.2_wp.model:$(TARGET_COPY_OUT_ODM)/etc/camera/gasryuv_1.2_wp.model \
     vendor/realme/sm8250-common/proprietary/odm/etc/camera/gasryuv_1.2_wp.model:$(TARGET_COPY_OUT_ODM)/etc/camera/gasryuv_1.2_wp.model \
     vendor/realme/sm8250-common/proprietary/odm/etc/camera/gesture/modules/tt_hand_box_reg_v12.0.model:$(TARGET_COPY_OUT_ODM)/etc/camera/gesture/modules/tt_hand_box_reg_v12.0.model \
     vendor/realme/sm8250-common/proprietary/odm/etc/camera/gesture/modules/tt_hand_det_v11.0.model:$(TARGET_COPY_OUT_ODM)/etc/camera/gesture/modules/tt_hand_det_v11.0.model \
@@ -311,24 +288,18 @@ PRODUCT_COPY_FILES += \
     vendor/realme/sm8250-common/proprietary/odm/etc/camera/gesture/tt_hand_kp_v6.0.model:$(TARGET_COPY_OUT_ODM)/etc/camera/gesture/tt_hand_kp_v6.0.model \
     vendor/realme/sm8250-common/proprietary/odm/etc/camera/gesture/tt_hand_lr_v3.0.model:$(TARGET_COPY_OUT_ODM)/etc/camera/gesture/tt_hand_lr_v3.0.model \
     vendor/realme/sm8250-common/proprietary/odm/etc/camera/micFilter/blue_pink_3.png:$(TARGET_COPY_OUT_ODM)/etc/camera/micFilter/blue_pink_3.png \
-    vendor/realme/sm8250-common/proprietary/odm/etc/camera/micFilter/blue_pink_3.png:$(TARGET_COPY_OUT_ODM)/etc/camera/micFilter/blue_pink_3.png \
-    vendor/realme/sm8250-common/proprietary/odm/etc/camera/micFilter/curve_0.png:$(TARGET_COPY_OUT_ODM)/etc/camera/micFilter/curve_0.png \
     vendor/realme/sm8250-common/proprietary/odm/etc/camera/micFilter/curve_0.png:$(TARGET_COPY_OUT_ODM)/etc/camera/micFilter/curve_0.png \
     vendor/realme/sm8250-common/proprietary/odm/etc/camera/micFilter/green_orange_2.png:$(TARGET_COPY_OUT_ODM)/etc/camera/micFilter/green_orange_2.png \
-    vendor/realme/sm8250-common/proprietary/odm/etc/camera/micFilter/green_orange_2.png:$(TARGET_COPY_OUT_ODM)/etc/camera/micFilter/green_orange_2.png \
-    vendor/realme/sm8250-common/proprietary/odm/etc/camera/micFilter/yellow_green_1.png:$(TARGET_COPY_OUT_ODM)/etc/camera/micFilter/yellow_green_1.png \
     vendor/realme/sm8250-common/proprietary/odm/etc/camera/micFilter/yellow_green_1.png:$(TARGET_COPY_OUT_ODM)/etc/camera/micFilter/yellow_green_1.png \
     vendor/realme/sm8250-common/proprietary/odm/etc/camera/model/DocDetectV15.xbin:$(TARGET_COPY_OUT_ODM)/etc/camera/model/DocDetectV15.xbin \
-    vendor/realme/sm8250-common/proprietary/odm/etc/camera/model/DocDetectV15.xbin:$(TARGET_COPY_OUT_ODM)/etc/camera/model/DocDetectV15.xbin \
-    vendor/realme/sm8250-common/proprietary/odm/etc/camera/model_fdc.data:$(TARGET_COPY_OUT_ODM)/etc/camera/model_fdc.data \
     vendor/realme/sm8250-common/proprietary/odm/etc/camera/model_fdc.data:$(TARGET_COPY_OUT_ODM)/etc/camera/model_fdc.data \
     vendor/realme/sm8250-common/proprietary/odm/etc/camera/motionblur/model.data:$(TARGET_COPY_OUT_ODM)/etc/camera/motionblur/model.data \
-    vendor/realme/sm8250-common/proprietary/odm/etc/camera/motionblur/model.data:$(TARGET_COPY_OUT_ODM)/etc/camera/motionblur/model.data \
-    vendor/realme/sm8250-common/proprietary/odm/etc/camera/mtStereoParams.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/mtStereoParams.bin \
     vendor/realme/sm8250-common/proprietary/odm/etc/camera/mtStereoParams.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/mtStereoParams.bin \
     vendor/realme/sm8250-common/proprietary/odm/etc/camera/mwStereoParams.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/mwStereoParams.bin \
-    vendor/realme/sm8250-common/proprietary/odm/etc/camera/mwStereoParams.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/mwStereoParams.bin \
+    vendor/realme/sm8250-common/proprietary/odm/etc/camera/omoji/assets/sdk_assets/ai_face_processor_e47_s1.bundle:$(TARGET_COPY_OUT_ODM)/etc/camera/omoji/assets/sdk_assets/ai_face_processor_e47_s1.bundle \
+    vendor/realme/sm8250-common/proprietary/odm/etc/camera/omoji/assets/sdk_assets/controller_cpp.bundle:$(TARGET_COPY_OUT_ODM)/etc/camera/omoji/assets/sdk_assets/controller_cpp.bundle \
     vendor/realme/sm8250-common/proprietary/odm/etc/camera/pf/PerfectColorSet/normal/colorLut0:$(TARGET_COPY_OUT_ODM)/etc/camera/pf/PerfectColorSet/normal/colorLut0 \
+    vendor/realme/sm8250-common/proprietary/odm/etc/camera/pf/PerfectColorSet/normal/colorLut1:$(TARGET_COPY_OUT_ODM)/etc/camera/pf/PerfectColorSet/normal/colorLut1 \
     vendor/realme/sm8250-common/proprietary/odm/etc/camera/pf/PerfectColorSet/normal/colorLut10:$(TARGET_COPY_OUT_ODM)/etc/camera/pf/PerfectColorSet/normal/colorLut10 \
     vendor/realme/sm8250-common/proprietary/odm/etc/camera/pf/PerfectColorSet/normal/colorLut11:$(TARGET_COPY_OUT_ODM)/etc/camera/pf/PerfectColorSet/normal/colorLut11 \
     vendor/realme/sm8250-common/proprietary/odm/etc/camera/pf/PerfectColorSet/normal/colorLut12:$(TARGET_COPY_OUT_ODM)/etc/camera/pf/PerfectColorSet/normal/colorLut12 \
@@ -338,7 +309,6 @@ PRODUCT_COPY_FILES += \
     vendor/realme/sm8250-common/proprietary/odm/etc/camera/pf/PerfectColorSet/normal/colorLut16:$(TARGET_COPY_OUT_ODM)/etc/camera/pf/PerfectColorSet/normal/colorLut16 \
     vendor/realme/sm8250-common/proprietary/odm/etc/camera/pf/PerfectColorSet/normal/colorLut17:$(TARGET_COPY_OUT_ODM)/etc/camera/pf/PerfectColorSet/normal/colorLut17 \
     vendor/realme/sm8250-common/proprietary/odm/etc/camera/pf/PerfectColorSet/normal/colorLut18:$(TARGET_COPY_OUT_ODM)/etc/camera/pf/PerfectColorSet/normal/colorLut18 \
-    vendor/realme/sm8250-common/proprietary/odm/etc/camera/pf/PerfectColorSet/normal/colorLut1:$(TARGET_COPY_OUT_ODM)/etc/camera/pf/PerfectColorSet/normal/colorLut1 \
     vendor/realme/sm8250-common/proprietary/odm/etc/camera/pf/PerfectColorSet/normal/colorLut2:$(TARGET_COPY_OUT_ODM)/etc/camera/pf/PerfectColorSet/normal/colorLut2 \
     vendor/realme/sm8250-common/proprietary/odm/etc/camera/pf/PerfectColorSet/normal/colorLut3:$(TARGET_COPY_OUT_ODM)/etc/camera/pf/PerfectColorSet/normal/colorLut3 \
     vendor/realme/sm8250-common/proprietary/odm/etc/camera/pf/PerfectColorSet/normal/colorLut4:$(TARGET_COPY_OUT_ODM)/etc/camera/pf/PerfectColorSet/normal/colorLut4 \
@@ -348,6 +318,7 @@ PRODUCT_COPY_FILES += \
     vendor/realme/sm8250-common/proprietary/odm/etc/camera/pf/PerfectColorSet/normal/colorLut8:$(TARGET_COPY_OUT_ODM)/etc/camera/pf/PerfectColorSet/normal/colorLut8 \
     vendor/realme/sm8250-common/proprietary/odm/etc/camera/pf/PerfectColorSet/normal/colorLut9:$(TARGET_COPY_OUT_ODM)/etc/camera/pf/PerfectColorSet/normal/colorLut9 \
     vendor/realme/sm8250-common/proprietary/odm/etc/camera/pf/PerfectColorSet/normal/curveLut0:$(TARGET_COPY_OUT_ODM)/etc/camera/pf/PerfectColorSet/normal/curveLut0 \
+    vendor/realme/sm8250-common/proprietary/odm/etc/camera/pf/PerfectColorSet/normal/curveLut1:$(TARGET_COPY_OUT_ODM)/etc/camera/pf/PerfectColorSet/normal/curveLut1 \
     vendor/realme/sm8250-common/proprietary/odm/etc/camera/pf/PerfectColorSet/normal/curveLut10:$(TARGET_COPY_OUT_ODM)/etc/camera/pf/PerfectColorSet/normal/curveLut10 \
     vendor/realme/sm8250-common/proprietary/odm/etc/camera/pf/PerfectColorSet/normal/curveLut11:$(TARGET_COPY_OUT_ODM)/etc/camera/pf/PerfectColorSet/normal/curveLut11 \
     vendor/realme/sm8250-common/proprietary/odm/etc/camera/pf/PerfectColorSet/normal/curveLut12:$(TARGET_COPY_OUT_ODM)/etc/camera/pf/PerfectColorSet/normal/curveLut12 \
@@ -357,7 +328,6 @@ PRODUCT_COPY_FILES += \
     vendor/realme/sm8250-common/proprietary/odm/etc/camera/pf/PerfectColorSet/normal/curveLut16:$(TARGET_COPY_OUT_ODM)/etc/camera/pf/PerfectColorSet/normal/curveLut16 \
     vendor/realme/sm8250-common/proprietary/odm/etc/camera/pf/PerfectColorSet/normal/curveLut17:$(TARGET_COPY_OUT_ODM)/etc/camera/pf/PerfectColorSet/normal/curveLut17 \
     vendor/realme/sm8250-common/proprietary/odm/etc/camera/pf/PerfectColorSet/normal/curveLut18:$(TARGET_COPY_OUT_ODM)/etc/camera/pf/PerfectColorSet/normal/curveLut18 \
-    vendor/realme/sm8250-common/proprietary/odm/etc/camera/pf/PerfectColorSet/normal/curveLut1:$(TARGET_COPY_OUT_ODM)/etc/camera/pf/PerfectColorSet/normal/curveLut1 \
     vendor/realme/sm8250-common/proprietary/odm/etc/camera/pf/PerfectColorSet/normal/curveLut2:$(TARGET_COPY_OUT_ODM)/etc/camera/pf/PerfectColorSet/normal/curveLut2 \
     vendor/realme/sm8250-common/proprietary/odm/etc/camera/pf/PerfectColorSet/normal/curveLut3:$(TARGET_COPY_OUT_ODM)/etc/camera/pf/PerfectColorSet/normal/curveLut3 \
     vendor/realme/sm8250-common/proprietary/odm/etc/camera/pf/PerfectColorSet/normal/curveLut4:$(TARGET_COPY_OUT_ODM)/etc/camera/pf/PerfectColorSet/normal/curveLut4 \
@@ -390,6 +360,7 @@ PRODUCT_COPY_FILES += \
     vendor/realme/sm8250-common/proprietary/odm/etc/camera/pf/PerfectColorSet/normal/platformSet.ini:$(TARGET_COPY_OUT_ODM)/etc/camera/pf/PerfectColorSet/normal/platformSet.ini \
     vendor/realme/sm8250-common/proprietary/odm/etc/camera/pf/PerfectColorSet/normal/sceneList.txt:$(TARGET_COPY_OUT_ODM)/etc/camera/pf/PerfectColorSet/normal/sceneList.txt \
     vendor/realme/sm8250-common/proprietary/odm/etc/camera/pf/PerfectColorSet/portrait/colorLut0:$(TARGET_COPY_OUT_ODM)/etc/camera/pf/PerfectColorSet/portrait/colorLut0 \
+    vendor/realme/sm8250-common/proprietary/odm/etc/camera/pf/PerfectColorSet/portrait/colorLut1:$(TARGET_COPY_OUT_ODM)/etc/camera/pf/PerfectColorSet/portrait/colorLut1 \
     vendor/realme/sm8250-common/proprietary/odm/etc/camera/pf/PerfectColorSet/portrait/colorLut10:$(TARGET_COPY_OUT_ODM)/etc/camera/pf/PerfectColorSet/portrait/colorLut10 \
     vendor/realme/sm8250-common/proprietary/odm/etc/camera/pf/PerfectColorSet/portrait/colorLut11:$(TARGET_COPY_OUT_ODM)/etc/camera/pf/PerfectColorSet/portrait/colorLut11 \
     vendor/realme/sm8250-common/proprietary/odm/etc/camera/pf/PerfectColorSet/portrait/colorLut12:$(TARGET_COPY_OUT_ODM)/etc/camera/pf/PerfectColorSet/portrait/colorLut12 \
@@ -399,7 +370,6 @@ PRODUCT_COPY_FILES += \
     vendor/realme/sm8250-common/proprietary/odm/etc/camera/pf/PerfectColorSet/portrait/colorLut16:$(TARGET_COPY_OUT_ODM)/etc/camera/pf/PerfectColorSet/portrait/colorLut16 \
     vendor/realme/sm8250-common/proprietary/odm/etc/camera/pf/PerfectColorSet/portrait/colorLut17:$(TARGET_COPY_OUT_ODM)/etc/camera/pf/PerfectColorSet/portrait/colorLut17 \
     vendor/realme/sm8250-common/proprietary/odm/etc/camera/pf/PerfectColorSet/portrait/colorLut18:$(TARGET_COPY_OUT_ODM)/etc/camera/pf/PerfectColorSet/portrait/colorLut18 \
-    vendor/realme/sm8250-common/proprietary/odm/etc/camera/pf/PerfectColorSet/portrait/colorLut1:$(TARGET_COPY_OUT_ODM)/etc/camera/pf/PerfectColorSet/portrait/colorLut1 \
     vendor/realme/sm8250-common/proprietary/odm/etc/camera/pf/PerfectColorSet/portrait/colorLut2:$(TARGET_COPY_OUT_ODM)/etc/camera/pf/PerfectColorSet/portrait/colorLut2 \
     vendor/realme/sm8250-common/proprietary/odm/etc/camera/pf/PerfectColorSet/portrait/colorLut3:$(TARGET_COPY_OUT_ODM)/etc/camera/pf/PerfectColorSet/portrait/colorLut3 \
     vendor/realme/sm8250-common/proprietary/odm/etc/camera/pf/PerfectColorSet/portrait/colorLut4:$(TARGET_COPY_OUT_ODM)/etc/camera/pf/PerfectColorSet/portrait/colorLut4 \
@@ -409,6 +379,7 @@ PRODUCT_COPY_FILES += \
     vendor/realme/sm8250-common/proprietary/odm/etc/camera/pf/PerfectColorSet/portrait/colorLut8:$(TARGET_COPY_OUT_ODM)/etc/camera/pf/PerfectColorSet/portrait/colorLut8 \
     vendor/realme/sm8250-common/proprietary/odm/etc/camera/pf/PerfectColorSet/portrait/colorLut9:$(TARGET_COPY_OUT_ODM)/etc/camera/pf/PerfectColorSet/portrait/colorLut9 \
     vendor/realme/sm8250-common/proprietary/odm/etc/camera/pf/PerfectColorSet/portrait/curveLut0:$(TARGET_COPY_OUT_ODM)/etc/camera/pf/PerfectColorSet/portrait/curveLut0 \
+    vendor/realme/sm8250-common/proprietary/odm/etc/camera/pf/PerfectColorSet/portrait/curveLut1:$(TARGET_COPY_OUT_ODM)/etc/camera/pf/PerfectColorSet/portrait/curveLut1 \
     vendor/realme/sm8250-common/proprietary/odm/etc/camera/pf/PerfectColorSet/portrait/curveLut10:$(TARGET_COPY_OUT_ODM)/etc/camera/pf/PerfectColorSet/portrait/curveLut10 \
     vendor/realme/sm8250-common/proprietary/odm/etc/camera/pf/PerfectColorSet/portrait/curveLut11:$(TARGET_COPY_OUT_ODM)/etc/camera/pf/PerfectColorSet/portrait/curveLut11 \
     vendor/realme/sm8250-common/proprietary/odm/etc/camera/pf/PerfectColorSet/portrait/curveLut12:$(TARGET_COPY_OUT_ODM)/etc/camera/pf/PerfectColorSet/portrait/curveLut12 \
@@ -418,7 +389,6 @@ PRODUCT_COPY_FILES += \
     vendor/realme/sm8250-common/proprietary/odm/etc/camera/pf/PerfectColorSet/portrait/curveLut16:$(TARGET_COPY_OUT_ODM)/etc/camera/pf/PerfectColorSet/portrait/curveLut16 \
     vendor/realme/sm8250-common/proprietary/odm/etc/camera/pf/PerfectColorSet/portrait/curveLut17:$(TARGET_COPY_OUT_ODM)/etc/camera/pf/PerfectColorSet/portrait/curveLut17 \
     vendor/realme/sm8250-common/proprietary/odm/etc/camera/pf/PerfectColorSet/portrait/curveLut18:$(TARGET_COPY_OUT_ODM)/etc/camera/pf/PerfectColorSet/portrait/curveLut18 \
-    vendor/realme/sm8250-common/proprietary/odm/etc/camera/pf/PerfectColorSet/portrait/curveLut1:$(TARGET_COPY_OUT_ODM)/etc/camera/pf/PerfectColorSet/portrait/curveLut1 \
     vendor/realme/sm8250-common/proprietary/odm/etc/camera/pf/PerfectColorSet/portrait/curveLut2:$(TARGET_COPY_OUT_ODM)/etc/camera/pf/PerfectColorSet/portrait/curveLut2 \
     vendor/realme/sm8250-common/proprietary/odm/etc/camera/pf/PerfectColorSet/portrait/curveLut3:$(TARGET_COPY_OUT_ODM)/etc/camera/pf/PerfectColorSet/portrait/curveLut3 \
     vendor/realme/sm8250-common/proprietary/odm/etc/camera/pf/PerfectColorSet/portrait/curveLut4:$(TARGET_COPY_OUT_ODM)/etc/camera/pf/PerfectColorSet/portrait/curveLut4 \
@@ -492,13 +462,12 @@ PRODUCT_COPY_FILES += \
     vendor/realme/sm8250-common/proprietary/odm/etc/camera/pfb_bin/ThirdPartyPreVertSurBinary.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/pfb_bin/ThirdPartyPreVertSurBinary.bin \
     vendor/realme/sm8250-common/proprietary/odm/etc/camera/settings_fdc.txt:$(TARGET_COPY_OUT_ODM)/etc/camera/settings_fdc.txt \
     vendor/realme/sm8250-common/proprietary/odm/etc/camera/settings_fdc_lite.txt:$(TARGET_COPY_OUT_ODM)/etc/camera/settings_fdc_lite.txt \
-    vendor/realme/sm8250-common/proprietary/odm/etc/camera/settings_fdc_lite.txt:$(TARGET_COPY_OUT_ODM)/etc/camera/settings_fdc_lite.txt \
     vendor/realme/sm8250-common/proprietary/odm/etc/camera/sticker/M_SenseME_Action_5.2.12.model:$(TARGET_COPY_OUT_ODM)/etc/camera/sticker/M_SenseME_Action_5.2.12.model \
     vendor/realme/sm8250-common/proprietary/odm/etc/camera/sticker/material/animoji/data.zip:$(TARGET_COPY_OUT_ODM)/etc/camera/sticker/material/animoji/data.zip \
     vendor/realme/sm8250-common/proprietary/odm/etc/camera/sticker/material/animoji/snowleopard_v_0_0_0_9.zip:$(TARGET_COPY_OUT_ODM)/etc/camera/sticker/material/animoji/snowleopard_v_0_0_0_9.zip \
     vendor/realme/sm8250-common/proprietary/odm/etc/camera/tonemap/curve_lut_0:$(TARGET_COPY_OUT_ODM)/etc/camera/tonemap/curve_lut_0 \
-    vendor/realme/sm8250-common/proprietary/odm/etc/camera/tonemap/curve_lut_10:$(TARGET_COPY_OUT_ODM)/etc/camera/tonemap/curve_lut_10 \
     vendor/realme/sm8250-common/proprietary/odm/etc/camera/tonemap/curve_lut_1:$(TARGET_COPY_OUT_ODM)/etc/camera/tonemap/curve_lut_1 \
+    vendor/realme/sm8250-common/proprietary/odm/etc/camera/tonemap/curve_lut_10:$(TARGET_COPY_OUT_ODM)/etc/camera/tonemap/curve_lut_10 \
     vendor/realme/sm8250-common/proprietary/odm/etc/camera/tonemap/curve_lut_2:$(TARGET_COPY_OUT_ODM)/etc/camera/tonemap/curve_lut_2 \
     vendor/realme/sm8250-common/proprietary/odm/etc/camera/tonemap/curve_lut_3:$(TARGET_COPY_OUT_ODM)/etc/camera/tonemap/curve_lut_3 \
     vendor/realme/sm8250-common/proprietary/odm/etc/camera/tonemap/curve_lut_4:$(TARGET_COPY_OUT_ODM)/etc/camera/tonemap/curve_lut_4 \
@@ -510,8 +479,8 @@ PRODUCT_COPY_FILES += \
     vendor/realme/sm8250-common/proprietary/odm/etc/camera/tonemap/list.txt:$(TARGET_COPY_OUT_ODM)/etc/camera/tonemap/list.txt \
     vendor/realme/sm8250-common/proprietary/odm/etc/camera/tonemap/s_curve_lut:$(TARGET_COPY_OUT_ODM)/etc/camera/tonemap/s_curve_lut \
     vendor/realme/sm8250-common/proprietary/odm/etc/camera/tonemap/tonemap_lut_0:$(TARGET_COPY_OUT_ODM)/etc/camera/tonemap/tonemap_lut_0 \
-    vendor/realme/sm8250-common/proprietary/odm/etc/camera/tonemap/tonemap_lut_10:$(TARGET_COPY_OUT_ODM)/etc/camera/tonemap/tonemap_lut_10 \
     vendor/realme/sm8250-common/proprietary/odm/etc/camera/tonemap/tonemap_lut_1:$(TARGET_COPY_OUT_ODM)/etc/camera/tonemap/tonemap_lut_1 \
+    vendor/realme/sm8250-common/proprietary/odm/etc/camera/tonemap/tonemap_lut_10:$(TARGET_COPY_OUT_ODM)/etc/camera/tonemap/tonemap_lut_10 \
     vendor/realme/sm8250-common/proprietary/odm/etc/camera/tonemap/tonemap_lut_2:$(TARGET_COPY_OUT_ODM)/etc/camera/tonemap/tonemap_lut_2 \
     vendor/realme/sm8250-common/proprietary/odm/etc/camera/tonemap/tonemap_lut_3:$(TARGET_COPY_OUT_ODM)/etc/camera/tonemap/tonemap_lut_3 \
     vendor/realme/sm8250-common/proprietary/odm/etc/camera/tonemap/tonemap_lut_4:$(TARGET_COPY_OUT_ODM)/etc/camera/tonemap/tonemap_lut_4 \
@@ -521,15 +490,12 @@ PRODUCT_COPY_FILES += \
     vendor/realme/sm8250-common/proprietary/odm/etc/camera/tonemap/tonemap_lut_8:$(TARGET_COPY_OUT_ODM)/etc/camera/tonemap/tonemap_lut_8 \
     vendor/realme/sm8250-common/proprietary/odm/etc/camera/tonemap/tonemap_lut_9:$(TARGET_COPY_OUT_ODM)/etc/camera/tonemap/tonemap_lut_9 \
     vendor/realme/sm8250-common/proprietary/odm/etc/camera/wide.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/wide.bin \
-    vendor/realme/sm8250-common/proprietary/odm/etc/camera/wide.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/wide.bin \
-    vendor/realme/sm8250-common/proprietary/odm/etc/dolby/multimedia_dolby_dax_default.xml:$(TARGET_COPY_OUT_ODM)/etc/dolby/multimedia_dolby_dax_default.xml \
     vendor/realme/sm8250-common/proprietary/odm/etc/init/android.hardware.drm@1.3-service.widevine.rc:$(TARGET_COPY_OUT_ODM)/etc/init/android.hardware.drm@1.3-service.widevine.rc \
-    vendor/realme/sm8250-common/proprietary/odm/etc/init/vendor.dolby_v3_6.hardware.dms360@2.0-service.rc:$(TARGET_COPY_OUT_ODM)/etc/init/vendor.dolby_v3_6.hardware.dms360@2.0-service.rc \
     vendor/realme/sm8250-common/proprietary/odm/etc/init/vendor.oplus.hardware.biometrics.fingerprint@2.1-service.rc:$(TARGET_COPY_OUT_ODM)/etc/init/vendor.oplus.hardware.biometrics.fingerprint@2.1-service.rc \
     vendor/realme/sm8250-common/proprietary/odm/etc/init/vendor.oplus.hardware.oplusSensor@1.0-service.rc:$(TARGET_COPY_OUT_ODM)/etc/init/vendor.oplus.hardware.oplusSensor@1.0-service.rc \
     vendor/realme/sm8250-common/proprietary/odm/etc/init/vendor.qti.esepowermanager@1.1-service.rc:$(TARGET_COPY_OUT_ODM)/etc/init/vendor.qti.esepowermanager@1.1-service.rc \
     vendor/realme/sm8250-common/proprietary/odm/etc/init/vendor.qti.secure_element@1.2-service.rc:$(TARGET_COPY_OUT_ODM)/etc/init/vendor.qti.secure_element@1.2-service.rc \
-    vendor/realme/sm8250-common/proprietary/vendor/etc/media_codecs_dolby_audio.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_codecs_dolby_audio.xml \
+    vendor/realme/sm8250-common/proprietary/odm/etc/seccomp_policy/codec2.vendor.base.policy:$(TARGET_COPY_OUT_ODM)/etc/seccomp_policy/codec2.vendor.base.policy \
     vendor/realme/sm8250-common/proprietary/odm/etc/sensor/config/kona_qrd_ak991x_0.json:$(TARGET_COPY_OUT_ODM)/etc/sensor/config/kona_qrd_ak991x_0.json \
     vendor/realme/sm8250-common/proprietary/odm/etc/sensor/config/kona_qrd_alsps.json:$(TARGET_COPY_OUT_ODM)/etc/sensor/config/kona_qrd_alsps.json \
     vendor/realme/sm8250-common/proprietary/odm/etc/sensor/config/kona_qrd_bmi26x_0.json:$(TARGET_COPY_OUT_ODM)/etc/sensor/config/kona_qrd_bmi26x_0.json \
@@ -543,6 +509,9 @@ PRODUCT_COPY_FILES += \
     vendor/realme/sm8250-common/proprietary/odm/etc/sensor/config/kona_qrd_mn29005.json:$(TARGET_COPY_OUT_ODM)/etc/sensor/config/kona_qrd_mn29005.json \
     vendor/realme/sm8250-common/proprietary/odm/etc/sensor/config/kona_qrd_sx933x_0.json:$(TARGET_COPY_OUT_ODM)/etc/sensor/config/kona_qrd_sx933x_0.json \
     vendor/realme/sm8250-common/proprietary/odm/etc/sensor/sensor_config.json:$(TARGET_COPY_OUT_ODM)/etc/sensor/sensor_config.json \
+    vendor/realme/sm8250-common/proprietary/odm/etc/wifi/bin_version:$(TARGET_COPY_OUT_ODM)/etc/wifi/bin_version \
+    vendor/realme/sm8250-common/proprietary/odm/etc/wifi/regdb.bin:$(TARGET_COPY_OUT_ODM)/etc/wifi/regdb.bin \
+    vendor/realme/sm8250-common/proprietary/odm/etc/wifi/regdb_version:$(TARGET_COPY_OUT_ODM)/etc/wifi/regdb_version \
     vendor/realme/sm8250-common/proprietary/odm/firmware/100ms_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/100ms_RTP.bin \
     vendor/realme/sm8250-common/proprietary/odm/firmware/120ms_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/120ms_RTP.bin \
     vendor/realme/sm8250-common/proprietary/odm/firmware/140ms_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/140ms_RTP.bin \
@@ -581,15 +550,6 @@ PRODUCT_COPY_FILES += \
     vendor/realme/sm8250-common/proprietary/odm/firmware/tp/21623/LIMIT_FT3658U_SAMSUNG.img:$(TARGET_COPY_OUT_ODM)/firmware/tp/21623/LIMIT_FT3658U_SAMSUNG.img \
     vendor/realme/sm8250-common/proprietary/odm/lib/libDeVIS.so:$(TARGET_COPY_OUT_ODM)/lib/libDeVIS.so \
     vendor/realme/sm8250-common/proprietary/odm/lib/libc++_shared.so:$(TARGET_COPY_OUT_ODM)/lib/libc++_shared.so \
-    vendor/realme/sm8250-common/proprietary/odm/lib/libdapparamstorage_v3_6.so:$(TARGET_COPY_OUT_ODM)/lib/libdapparamstorage_v3_6.so \
-    vendor/realme/sm8250-common/proprietary/odm/lib/libdeccfg_v3_6.so:$(TARGET_COPY_OUT_ODM)/lib/libdeccfg_v3_6.so \
-    vendor/realme/sm8250-common/proprietary/odm/lib/libdlbdsservice_v3_6.so:$(TARGET_COPY_OUT_ODM)/lib/libdlbdsservice_v3_6.so \
-    vendor/realme/sm8250-common/proprietary/odm/lib/liblvimfs.so:$(TARGET_COPY_OUT_ODM)/lib/liblvimfs.so \
-    vendor/realme/sm8250-common/proprietary/odm/lib/liblvimfs_wrapper.so:$(TARGET_COPY_OUT_ODM)/lib/liblvimfs_wrapper.so \
-    vendor/realme/sm8250-common/proprietary/odm/lib/libqtigef.so:$(TARGET_COPY_OUT_ODM)/lib/libqtigef.so \
-    vendor/realme/sm8250-common/proprietary/odm/lib/libstagefright_soft_ac4dec.so:$(TARGET_COPY_OUT_ODM)/lib/libstagefright_soft_ac4dec.so \
-    vendor/realme/sm8250-common/proprietary/odm/lib/libstagefright_soft_ddpdec.so:$(TARGET_COPY_OUT_ODM)/lib/libstagefright_soft_ddpdec.so \
-    vendor/realme/sm8250-common/proprietary/odm/lib/libstagefrightdolby.so:$(TARGET_COPY_OUT_ODM)/lib/libstagefrightdolby.so \
     vendor/realme/sm8250-common/proprietary/odm/lib/rfsa/adsp/hta_lib/libhta_dsp_skel.so:$(TARGET_COPY_OUT_ODM)/lib/rfsa/adsp/hta_lib/libhta_dsp_skel.so \
     vendor/realme/sm8250-common/proprietary/odm/lib/rfsa/adsp/libaiboost_skel.so:$(TARGET_COPY_OUT_ODM)/lib/rfsa/adsp/libaiboost_skel.so \
     vendor/realme/sm8250-common/proprietary/odm/lib/rfsa/adsp/libaiboost_skel_v65.so:$(TARGET_COPY_OUT_ODM)/lib/rfsa/adsp/libaiboost_skel_v65.so \
@@ -604,40 +564,26 @@ PRODUCT_COPY_FILES += \
     vendor/realme/sm8250-common/proprietary/odm/lib/rfsa/adsp/libktvpitchshift.so:$(TARGET_COPY_OUT_ODM)/lib/rfsa/adsp/libktvpitchshift.so \
     vendor/realme/sm8250-common/proprietary/odm/lib/rfsa/adsp/libktvreverb.so:$(TARGET_COPY_OUT_ODM)/lib/rfsa/adsp/libktvreverb.so \
     vendor/realme/sm8250-common/proprietary/odm/lib/rfsa/adsp/libktvvolume.so:$(TARGET_COPY_OUT_ODM)/lib/rfsa/adsp/libktvvolume.so \
-    vendor/realme/sm8250-common/proprietary/odm/lib/soundfx/libhwdap_v3_6.so:$(TARGET_COPY_OUT_ODM)/lib/soundfx/libhwdap_v3_6.so \
-    vendor/realme/sm8250-common/proprietary/odm/lib/soundfx/libswdap_v3_6.so:$(TARGET_COPY_OUT_ODM)/lib/soundfx/libswdap_v3_6.so \
-    vendor/realme/sm8250-common/proprietary/odm/lib/vendor.dolby_v3_6.hardware.dms360@2.0-impl.so:$(TARGET_COPY_OUT_ODM)/lib/vendor.dolby_v3_6.hardware.dms360@2.0-impl.so \
-    vendor/realme/sm8250-common/proprietary/odm/lib/vendor.dolby_v3_6.hardware.dms360@2.0.so:$(TARGET_COPY_OUT_ODM)/lib/vendor.dolby_v3_6.hardware.dms360@2.0.so \
     vendor/realme/sm8250-common/proprietary/odm/lib/vendor.oplus.hardware.performance-V1-ndk_platform.so:$(TARGET_COPY_OUT_ODM)/lib/vendor.oplus.hardware.performance-V1-ndk_platform.so \
     vendor/realme/sm8250-common/proprietary/odm/lib64/anc.hal.so:$(TARGET_COPY_OUT_ODM)/lib64/anc.hal.so \
     vendor/realme/sm8250-common/proprietary/odm/lib64/android.hardware.secure_element@1.0-impl.so:$(TARGET_COPY_OUT_ODM)/lib64/android.hardware.secure_element@1.0-impl.so \
     vendor/realme/sm8250-common/proprietary/odm/lib64/camera/components/com.oplus.node.aiaftrack.so:$(TARGET_COPY_OUT_ODM)/lib64/camera/components/com.oplus.node.aiaftrack.so \
-    vendor/realme/sm8250-common/proprietary/odm/lib64/camera/components/com.oplus.node.aiaftrack.so:$(TARGET_COPY_OUT_ODM)/lib64/camera/components/com.oplus.node.aiaftrack.so \
-    vendor/realme/sm8250-common/proprietary/odm/lib64/camera/components/com.oplus.node.drawafinfo.so:$(TARGET_COPY_OUT_ODM)/lib64/camera/components/com.oplus.node.drawafinfo.so \
     vendor/realme/sm8250-common/proprietary/odm/lib64/camera/components/com.oplus.node.drawafinfo.so:$(TARGET_COPY_OUT_ODM)/lib64/camera/components/com.oplus.node.drawafinfo.so \
     vendor/realme/sm8250-common/proprietary/odm/lib64/camera/components/com.oplus.node.ecs.so:$(TARGET_COPY_OUT_ODM)/lib64/camera/components/com.oplus.node.ecs.so \
-    vendor/realme/sm8250-common/proprietary/odm/lib64/camera/components/com.oplus.node.ecs.so:$(TARGET_COPY_OUT_ODM)/lib64/camera/components/com.oplus.node.ecs.so \
-    vendor/realme/sm8250-common/proprietary/odm/lib64/camera/components/com.oplus.node.preview.so:$(TARGET_COPY_OUT_ODM)/lib64/camera/components/com.oplus.node.preview.so \
+    vendor/realme/sm8250-common/proprietary/odm/lib64/camera/components/com.oplus.node.eispreview.so:$(TARGET_COPY_OUT_ODM)/lib64/camera/components/com.oplus.node.eispreview.so \
+    vendor/realme/sm8250-common/proprietary/odm/lib64/camera/components/com.oplus.node.eisrecord.so:$(TARGET_COPY_OUT_ODM)/lib64/camera/components/com.oplus.node.eisrecord.so \
+    vendor/realme/sm8250-common/proprietary/odm/lib64/camera/components/com.oplus.node.ozeispreview.so:$(TARGET_COPY_OUT_ODM)/lib64/camera/components/com.oplus.node.ozeispreview.so \
+    vendor/realme/sm8250-common/proprietary/odm/lib64/camera/components/com.oplus.node.ozeisrecord.so:$(TARGET_COPY_OUT_ODM)/lib64/camera/components/com.oplus.node.ozeisrecord.so \
     vendor/realme/sm8250-common/proprietary/odm/lib64/camera/components/com.oplus.node.preview.so:$(TARGET_COPY_OUT_ODM)/lib64/camera/components/com.oplus.node.preview.so \
     vendor/realme/sm8250-common/proprietary/odm/lib64/camera/components/com.oplus.node.sat.so:$(TARGET_COPY_OUT_ODM)/lib64/camera/components/com.oplus.node.sat.so \
-    vendor/realme/sm8250-common/proprietary/odm/lib64/camera/components/com.oplus.node.sat.so:$(TARGET_COPY_OUT_ODM)/lib64/camera/components/com.oplus.node.sat.so \
-    vendor/realme/sm8250-common/proprietary/odm/lib64/camera/components/com.oplus.node.sstabdefer.so:$(TARGET_COPY_OUT_ODM)/lib64/camera/components/com.oplus.node.sstabdefer.so \
     vendor/realme/sm8250-common/proprietary/odm/lib64/camera/components/com.oplus.node.sstabdefer.so:$(TARGET_COPY_OUT_ODM)/lib64/camera/components/com.oplus.node.sstabdefer.so \
     vendor/realme/sm8250-common/proprietary/odm/lib64/camera/components/com.oplus.node.sstabrealt.so:$(TARGET_COPY_OUT_ODM)/lib64/camera/components/com.oplus.node.sstabrealt.so \
-    vendor/realme/sm8250-common/proprietary/odm/lib64/camera/components/com.oplus.node.sstabrealt.so:$(TARGET_COPY_OUT_ODM)/lib64/camera/components/com.oplus.node.sstabrealt.so \
-    vendor/realme/sm8250-common/proprietary/odm/lib64/camera/components/com.oplus.node.videoenhance.so:$(TARGET_COPY_OUT_ODM)/lib64/camera/components/com.oplus.node.videoenhance.so \
     vendor/realme/sm8250-common/proprietary/odm/lib64/camera/components/com.oplus.node.videoenhance.so:$(TARGET_COPY_OUT_ODM)/lib64/camera/components/com.oplus.node.videoenhance.so \
     vendor/realme/sm8250-common/proprietary/odm/lib64/camera/components/com.oplus.node.videohdr.so:$(TARGET_COPY_OUT_ODM)/lib64/camera/components/com.oplus.node.videohdr.so \
-    vendor/realme/sm8250-common/proprietary/odm/lib64/camera/components/com.oplus.node.videohdr.so:$(TARGET_COPY_OUT_ODM)/lib64/camera/components/com.oplus.node.videohdr.so \
-    vendor/realme/sm8250-common/proprietary/odm/lib64/camera/components/com.oplus.node.videonight.so:$(TARGET_COPY_OUT_ODM)/lib64/camera/components/com.oplus.node.videonight.so \
     vendor/realme/sm8250-common/proprietary/odm/lib64/camera/components/com.oplus.node.videonight.so:$(TARGET_COPY_OUT_ODM)/lib64/camera/components/com.oplus.node.videonight.so \
     vendor/realme/sm8250-common/proprietary/odm/lib64/camera/components/com.qti.node.remosaic.so:$(TARGET_COPY_OUT_ODM)/lib64/camera/components/com.qti.node.remosaic.so \
-    vendor/realme/sm8250-common/proprietary/odm/lib64/camera/components/com.qti.node.remosaic.so:$(TARGET_COPY_OUT_ODM)/lib64/camera/components/com.qti.node.remosaic.so \
-    vendor/realme/sm8250-common/proprietary/odm/lib64/camera/components/com.qti.stats.haf.so:$(TARGET_COPY_OUT_ODM)/lib64/camera/components/com.qti.stats.haf.so \
     vendor/realme/sm8250-common/proprietary/odm/lib64/camera/components/com.qti.stats.haf.so:$(TARGET_COPY_OUT_ODM)/lib64/camera/components/com.qti.stats.haf.so \
     vendor/realme/sm8250-common/proprietary/odm/lib64/camera/components/com.qti.stats.pdlib.so:$(TARGET_COPY_OUT_ODM)/lib64/camera/components/com.qti.stats.pdlib.so \
-    vendor/realme/sm8250-common/proprietary/odm/lib64/camera/components/com.qti.stats.pdlib.so:$(TARGET_COPY_OUT_ODM)/lib64/camera/components/com.qti.stats.pdlib.so \
-    vendor/realme/sm8250-common/proprietary/odm/lib64/camera/components/libipebpsstriping.so:$(TARGET_COPY_OUT_ODM)/lib64/camera/components/libipebpsstriping.so \
     vendor/realme/sm8250-common/proprietary/odm/lib64/camera/components/libipebpsstriping.so:$(TARGET_COPY_OUT_ODM)/lib64/camera/components/libipebpsstriping.so \
     vendor/realme/sm8250-common/proprietary/odm/lib64/hw/fingerprint.goodix_G2.default.so:$(TARGET_COPY_OUT_ODM)/lib64/hw/fingerprint.goodix_G2.default.so \
     vendor/realme/sm8250-common/proprietary/odm/lib64/hw/fingerprint.goodix_G3.default.so:$(TARGET_COPY_OUT_ODM)/lib64/hw/fingerprint.goodix_G3.default.so \
@@ -659,6 +605,7 @@ PRODUCT_COPY_FILES += \
     vendor/realme/sm8250-common/proprietary/odm/lib64/libAncSegBaseSdk.so:$(TARGET_COPY_OUT_ODM)/lib64/libAncSegBaseSdk.so \
     vendor/realme/sm8250-common/proprietary/odm/lib64/libAncSegmentSdk.so:$(TARGET_COPY_OUT_ODM)/lib64/libAncSegmentSdk.so \
     vendor/realme/sm8250-common/proprietary/odm/lib64/libBokehPre.so:$(TARGET_COPY_OUT_ODM)/lib64/libBokehPre.so \
+    vendor/realme/sm8250-common/proprietary/odm/lib64/libCNamaSDK_vendor.so:$(TARGET_COPY_OUT_ODM)/lib64/libCNamaSDK_vendor.so \
     vendor/realme/sm8250-common/proprietary/odm/lib64/libCOppLceTonemapAPI.so:$(TARGET_COPY_OUT_ODM)/lib64/libCOppLceTonemapAPI.so \
     vendor/realme/sm8250-common/proprietary/odm/lib64/libCaptureBokeh.so:$(TARGET_COPY_OUT_ODM)/lib64/libCaptureBokeh.so \
     vendor/realme/sm8250-common/proprietary/odm/lib64/libDeVIS.so:$(TARGET_COPY_OUT_ODM)/lib64/libDeVIS.so \
@@ -673,6 +620,7 @@ PRODUCT_COPY_FILES += \
     vendor/realme/sm8250-common/proprietary/odm/lib64/libFilterWrapper.so:$(TARGET_COPY_OUT_ODM)/lib64/libFilterWrapper.so \
     vendor/realme/sm8250-common/proprietary/odm/lib64/libHdrVideo.so:$(TARGET_COPY_OUT_ODM)/lib64/libHdrVideo.so \
     vendor/realme/sm8250-common/proprietary/odm/lib64/libImageWarpMask.so:$(TARGET_COPY_OUT_ODM)/lib64/libImageWarpMask.so \
+    vendor/realme/sm8250-common/proprietary/odm/lib64/libNamaWrapper.so:$(TARGET_COPY_OUT_ODM)/lib64/libNamaWrapper.so \
     vendor/realme/sm8250-common/proprietary/odm/lib64/libNightVideo.so:$(TARGET_COPY_OUT_ODM)/lib64/libNightVideo.so \
     vendor/realme/sm8250-common/proprietary/odm/lib64/libOGLManager.so:$(TARGET_COPY_OUT_ODM)/lib64/libOGLManager.so \
     vendor/realme/sm8250-common/proprietary/odm/lib64/libOPLUS_SCPortrait.so:$(TARGET_COPY_OUT_ODM)/lib64/libOPLUS_SCPortrait.so \
@@ -725,6 +673,10 @@ PRODUCT_COPY_FILES += \
     vendor/realme/sm8250-common/proprietary/odm/lib64/libapsexif.so:$(TARGET_COPY_OUT_ODM)/lib64/libapsexif.so \
     vendor/realme/sm8250-common/proprietary/odm/lib64/libapsjpeg.so:$(TARGET_COPY_OUT_ODM)/lib64/libapsjpeg.so \
     vendor/realme/sm8250-common/proprietary/odm/lib64/libapspng.so:$(TARGET_COPY_OUT_ODM)/lib64/libapspng.so \
+    vendor/realme/sm8250-common/proprietary/odm/lib64/libarc_eis.so:$(TARGET_COPY_OUT_ODM)/lib64/libarc_eis.so \
+    vendor/realme/sm8250-common/proprietary/odm/lib64/libarc_eis_custom.so:$(TARGET_COPY_OUT_ODM)/lib64/libarc_eis_custom.so \
+    vendor/realme/sm8250-common/proprietary/odm/lib64/libarc_sateis.so:$(TARGET_COPY_OUT_ODM)/lib64/libarc_sateis.so \
+    vendor/realme/sm8250-common/proprietary/odm/lib64/libarc_sateis_custom.so:$(TARGET_COPY_OUT_ODM)/lib64/libarc_sateis_custom.so \
     vendor/realme/sm8250-common/proprietary/odm/lib64/libarcsoft_aicolor_image.so:$(TARGET_COPY_OUT_ODM)/lib64/libarcsoft_aicolor_image.so \
     vendor/realme/sm8250-common/proprietary/odm/lib64/libarcsoft_aicolor_video.so:$(TARGET_COPY_OUT_ODM)/lib64/libarcsoft_aicolor_video.so \
     vendor/realme/sm8250-common/proprietary/odm/lib64/libarcsoft_distortion_correction.so:$(TARGET_COPY_OUT_ODM)/lib64/libarcsoft_distortion_correction.so \
@@ -755,6 +707,7 @@ PRODUCT_COPY_FILES += \
     vendor/realme/sm8250-common/proprietary/odm/lib64/libarcsoft_smart_denoise_v4.so:$(TARGET_COPY_OUT_ODM)/lib64/libarcsoft_smart_denoise_v4.so \
     vendor/realme/sm8250-common/proprietary/odm/lib64/libarcsoft_super_night_raw.so:$(TARGET_COPY_OUT_ODM)/lib64/libarcsoft_super_night_raw.so \
     vendor/realme/sm8250-common/proprietary/odm/lib64/libarcsoft_super_night_se_raw.so:$(TARGET_COPY_OUT_ODM)/lib64/libarcsoft_super_night_se_raw.so \
+    vendor/realme/sm8250-common/proprietary/odm/lib64/libarcsoft_supervideostabilization.so:$(TARGET_COPY_OUT_ODM)/lib64/libarcsoft_supervideostabilization.so \
     vendor/realme/sm8250-common/proprietary/odm/lib64/libarcsoft_videoautozoom.so:$(TARGET_COPY_OUT_ODM)/lib64/libarcsoft_videoautozoom.so \
     vendor/realme/sm8250-common/proprietary/odm/lib64/libbsproxy.so:$(TARGET_COPY_OUT_ODM)/lib64/libbsproxy.so \
     vendor/realme/sm8250-common/proprietary/odm/lib64/libc++_shared.so:$(TARGET_COPY_OUT_ODM)/lib64/libc++_shared.so \
@@ -767,14 +720,8 @@ PRODUCT_COPY_FILES += \
     vendor/realme/sm8250-common/proprietary/odm/lib64/libcommcenterfw.so:$(TARGET_COPY_OUT_ODM)/lib64/libcommcenterfw.so \
     vendor/realme/sm8250-common/proprietary/odm/lib64/libcommcenterutils.so:$(TARGET_COPY_OUT_ODM)/lib64/libcommcenterutils.so \
     vendor/realme/sm8250-common/proprietary/odm/lib64/libcvface_api.so:$(TARGET_COPY_OUT_ODM)/lib64/libcvface_api.so \
-    vendor/realme/sm8250-common/proprietary/odm/lib64/libdapparamstorage_v3_6.so:$(TARGET_COPY_OUT_ODM)/lib64/libdapparamstorage_v3_6.so \
     vendor/realme/sm8250-common/proprietary/odm/lib64/libdav1d.so.4:$(TARGET_COPY_OUT_ODM)/lib64/libdav1d.so.4 \
-    vendor/realme/sm8250-common/proprietary/odm/lib64/libdeccfg_v3_6.so:$(TARGET_COPY_OUT_ODM)/lib64/libdeccfg_v3_6.so \
-    vendor/realme/sm8250-common/proprietary/odm/lib64/libdlbdsservice_v3_6.so:$(TARGET_COPY_OUT_ODM)/lib64/libdlbdsservice_v3_6.so \
     vendor/realme/sm8250-common/proprietary/odm/lib64/libdmtp-protos-lite.so:$(TARGET_COPY_OUT_ODM)/lib64/libdmtp-protos-lite.so \
-    vendor/realme/sm8250-common/proprietary/odm/lib64/libdmtp-protos-lite.so:$(TARGET_COPY_OUT_ODM)/lib64/libdmtp-protos-lite.so \
-    vendor/realme/sm8250-common/proprietary/odm/lib64/libdmtp.so:$(TARGET_COPY_OUT_ODM)/lib64/libdmtp.so \
-    vendor/realme/sm8250-common/proprietary/odm/lib64/libdmtpclient.so:$(TARGET_COPY_OUT_ODM)/lib64/libdmtpclient.so \
     vendor/realme/sm8250-common/proprietary/odm/lib64/libdmtpclient.so:$(TARGET_COPY_OUT_ODM)/lib64/libdmtpclient.so \
     vendor/realme/sm8250-common/proprietary/odm/lib64/libeffect_custom.so:$(TARGET_COPY_OUT_ODM)/lib64/libeffect_custom.so \
     vendor/realme/sm8250-common/proprietary/odm/lib64/libfastov_dsp.so:$(TARGET_COPY_OUT_ODM)/lib64/libfastov_dsp.so \
@@ -800,7 +747,8 @@ PRODUCT_COPY_FILES += \
     vendor/realme/sm8250-common/proprietary/odm/lib64/libosie_process.so:$(TARGET_COPY_OUT_ODM)/lib64/libosie_process.so \
     vendor/realme/sm8250-common/proprietary/odm/lib64/libosie_stub.so:$(TARGET_COPY_OUT_ODM)/lib64/libosie_stub.so \
     vendor/realme/sm8250-common/proprietary/odm/lib64/libpngwrapper.so:$(TARGET_COPY_OUT_ODM)/lib64/libpngwrapper.so \
-    vendor/realme/sm8250-common/proprietary/odm/lib64/libqtigef.so:$(TARGET_COPY_OUT_ODM)/lib64/libqtigef.so \
+    vendor/realme/sm8250-common/proprietary/odm/lib64/libpwirisfeature.so:$(TARGET_COPY_OUT_ODM)/lib64/libpwirisfeature.so \
+    vendor/realme/sm8250-common/proprietary/odm/lib64/libpwirishalwrapper.so:$(TARGET_COPY_OUT_ODM)/lib64/libpwirishalwrapper.so \
     vendor/realme/sm8250-common/proprietary/odm/lib64/libshdr_stub.so:$(TARGET_COPY_OUT_ODM)/lib64/libshdr_stub.so \
     vendor/realme/sm8250-common/proprietary/odm/lib64/libsnpe_dsp_domains_v2.so:$(TARGET_COPY_OUT_ODM)/lib64/libsnpe_dsp_domains_v2.so \
     vendor/realme/sm8250-common/proprietary/odm/lib64/libsnpe_dsp_domains_v3.so:$(TARGET_COPY_OUT_ODM)/lib64/libsnpe_dsp_domains_v3.so \
@@ -815,15 +763,15 @@ PRODUCT_COPY_FILES += \
     vendor/realme/sm8250-common/proprietary/odm/lib64/libstfd_mobile_api.so:$(TARGET_COPY_OUT_ODM)/lib64/libstfd_mobile_api.so \
     vendor/realme/sm8250-common/proprietary/odm/lib64/libsymphony-cpu.so:$(TARGET_COPY_OUT_ODM)/lib64/libsymphony-cpu.so \
     vendor/realme/sm8250-common/proprietary/odm/lib64/libsymphonypower.so:$(TARGET_COPY_OUT_ODM)/lib64/libsymphonypower.so \
+    vendor/realme/sm8250-common/proprietary/odm/lib64/libtriplecam_image_optical_zoom.so:$(TARGET_COPY_OUT_ODM)/lib64/libtriplecam_image_optical_zoom.so \
+    vendor/realme/sm8250-common/proprietary/odm/lib64/libtriplecam_optical_zoom_control.so:$(TARGET_COPY_OUT_ODM)/lib64/libtriplecam_optical_zoom_control.so \
+    vendor/realme/sm8250-common/proprietary/odm/lib64/libtriplecam_video_optical_zoom.so:$(TARGET_COPY_OUT_ODM)/lib64/libtriplecam_video_optical_zoom.so \
+    vendor/realme/sm8250-common/proprietary/odm/lib64/libui.so:$(TARGET_COPY_OUT_ODM)/lib64/libui.so \
     vendor/realme/sm8250-common/proprietary/odm/lib64/libvl53l1_daemon.so:$(TARGET_COPY_OUT_ODM)/lib64/libvl53l1_daemon.so \
     vendor/realme/sm8250-common/proprietary/odm/lib64/libwatermark_photo.so:$(TARGET_COPY_OUT_ODM)/lib64/libwatermark_photo.so \
     vendor/realme/sm8250-common/proprietary/odm/lib64/libwvhidl.so:$(TARGET_COPY_OUT_ODM)/lib64/libwvhidl.so \
     vendor/realme/sm8250-common/proprietary/odm/lib64/mediadrm/libwvdrmengine.so:$(TARGET_COPY_OUT_ODM)/lib64/mediadrm/libwvdrmengine.so \
     vendor/realme/sm8250-common/proprietary/odm/lib64/sensors.hal.tof.so:$(TARGET_COPY_OUT_ODM)/lib64/sensors.hal.tof.so \
-    vendor/realme/sm8250-common/proprietary/odm/lib64/soundfx/libhwdap_v3_6.so:$(TARGET_COPY_OUT_ODM)/lib64/soundfx/libhwdap_v3_6.so \
-    vendor/realme/sm8250-common/proprietary/odm/lib64/soundfx/libswdap_v3_6.so:$(TARGET_COPY_OUT_ODM)/lib64/soundfx/libswdap_v3_6.so \
-    vendor/realme/sm8250-common/proprietary/odm/lib64/vendor.dolby_v3_6.hardware.dms360@2.0-impl.so:$(TARGET_COPY_OUT_ODM)/lib64/vendor.dolby_v3_6.hardware.dms360@2.0-impl.so \
-    vendor/realme/sm8250-common/proprietary/odm/lib64/vendor.dolby_v3_6.hardware.dms360@2.0.so:$(TARGET_COPY_OUT_ODM)/lib64/vendor.dolby_v3_6.hardware.dms360@2.0.so \
     vendor/realme/sm8250-common/proprietary/odm/lib64/vendor.oplus.hardware.appradio@1.0.so:$(TARGET_COPY_OUT_ODM)/lib64/vendor.oplus.hardware.appradio@1.0.so \
     vendor/realme/sm8250-common/proprietary/odm/lib64/vendor.oplus.hardware.biometrics.fingerprint@2.1.so:$(TARGET_COPY_OUT_ODM)/lib64/vendor.oplus.hardware.biometrics.fingerprint@2.1.so \
     vendor/realme/sm8250-common/proprietary/odm/lib64/vendor.oplus.hardware.cameraextension-V1-service-impl.so:$(TARGET_COPY_OUT_ODM)/lib64/vendor.oplus.hardware.cameraextension-V1-service-impl.so \
@@ -839,9 +787,11 @@ PRODUCT_COPY_FILES += \
     vendor/realme/sm8250-common/proprietary/odm/lib64/vendor.oplus.hardware.osense.client@1.0.so:$(TARGET_COPY_OUT_ODM)/lib64/vendor.oplus.hardware.osense.client@1.0.so \
     vendor/realme/sm8250-common/proprietary/odm/lib64/vendor.oplus.hardware.performance-V1-ndk_platform.so:$(TARGET_COPY_OUT_ODM)/lib64/vendor.oplus.hardware.performance-V1-ndk_platform.so \
     vendor/realme/sm8250-common/proprietary/odm/lib64/vendor.oplus.hardware.radio@1.0.so:$(TARGET_COPY_OUT_ODM)/lib64/vendor.oplus.hardware.radio@1.0.so \
+    vendor/realme/sm8250-common/proprietary/odm/lib64/vendor.pixelworks.hardware.display@1.0.so:$(TARGET_COPY_OUT_ODM)/lib64/vendor.pixelworks.hardware.display@1.0.so \
+    vendor/realme/sm8250-common/proprietary/odm/lib64/vendor.pixelworks.hardware.display@1.1.so:$(TARGET_COPY_OUT_ODM)/lib64/vendor.pixelworks.hardware.display@1.1.so \
+    vendor/realme/sm8250-common/proprietary/odm/lib64/vendor.pixelworks.hardware.feature@1.0.so:$(TARGET_COPY_OUT_ODM)/lib64/vendor.pixelworks.hardware.feature@1.0.so \
     vendor/realme/sm8250-common/proprietary/odm/lib64/vendor.qti.esepowermanager@1.0.so:$(TARGET_COPY_OUT_ODM)/lib64/vendor.qti.esepowermanager@1.0.so \
     vendor/realme/sm8250-common/proprietary/odm/lib64/vendor.qti.esepowermanager@1.1.so:$(TARGET_COPY_OUT_ODM)/lib64/vendor.qti.esepowermanager@1.1.so \
-    vendor/realme/sm8250-common/proprietary/vendor/etc/wifi/WCNSS_qcom_cfg.ini:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/WCNSS_qcom_cfg.ini \
     vendor/realme/sm8250-common/proprietary/odm/vendor/firmware/ois_bu63169.coeff:$(TARGET_COPY_OUT_ODM)/vendor/firmware/ois_bu63169.coeff \
     vendor/realme/sm8250-common/proprietary/odm/vendor/firmware/ois_bu63169.prog:$(TARGET_COPY_OUT_ODM)/vendor/firmware/ois_bu63169.prog \
     vendor/realme/sm8250-common/proprietary/odm/vendor/firmware/ois_bu63169_sec.coeff:$(TARGET_COPY_OUT_ODM)/vendor/firmware/ois_bu63169_sec.coeff \
@@ -866,6 +816,7 @@ PRODUCT_COPY_FILES += \
     vendor/realme/sm8250-common/proprietary/vendor/bin/hw/vendor.qti.hardware.qteeconnector@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.qti.hardware.qteeconnector@1.0-service \
     vendor/realme/sm8250-common/proprietary/vendor/bin/hw/vendor.qti.hardware.sensorscalibrate@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.qti.hardware.sensorscalibrate@1.0-service \
     vendor/realme/sm8250-common/proprietary/vendor/bin/hw/vendor.qti.hardware.soter@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.qti.hardware.soter@1.0-service \
+    vendor/realme/sm8250-common/proprietary/vendor/bin/hw/vendor.qti.media.c2@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.qti.media.c2@1.0-service \
     vendor/realme/sm8250-common/proprietary/vendor/bin/ims_rtp_daemon:$(TARGET_COPY_OUT_VENDOR)/bin/ims_rtp_daemon \
     vendor/realme/sm8250-common/proprietary/vendor/bin/imsdatadaemon:$(TARGET_COPY_OUT_VENDOR)/bin/imsdatadaemon \
     vendor/realme/sm8250-common/proprietary/vendor/bin/imsqmidaemon:$(TARGET_COPY_OUT_VENDOR)/bin/imsqmidaemon \
@@ -875,6 +826,7 @@ PRODUCT_COPY_FILES += \
     vendor/realme/sm8250-common/proprietary/vendor/bin/irsc_util:$(TARGET_COPY_OUT_VENDOR)/bin/irsc_util \
     vendor/realme/sm8250-common/proprietary/vendor/bin/ks:$(TARGET_COPY_OUT_VENDOR)/bin/ks \
     vendor/realme/sm8250-common/proprietary/vendor/bin/mdm_helper:$(TARGET_COPY_OUT_VENDOR)/bin/mdm_helper \
+    vendor/realme/sm8250-common/proprietary/vendor/bin/msm_irqbalance:$(TARGET_COPY_OUT_VENDOR)/bin/msm_irqbalance \
     vendor/realme/sm8250-common/proprietary/vendor/bin/mutualex:$(TARGET_COPY_OUT_VENDOR)/bin/mutualex \
     vendor/realme/sm8250-common/proprietary/vendor/bin/netmgrd:$(TARGET_COPY_OUT_VENDOR)/bin/netmgrd \
     vendor/realme/sm8250-common/proprietary/vendor/bin/pd-mapper:$(TARGET_COPY_OUT_VENDOR)/bin/pd-mapper \
@@ -970,6 +922,7 @@ PRODUCT_COPY_FILES += \
     vendor/realme/sm8250-common/proprietary/vendor/etc/init/vendor.qti.hardware.qteeconnector@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.hardware.qteeconnector@1.0-service.rc \
     vendor/realme/sm8250-common/proprietary/vendor/etc/init/vendor.qti.hardware.sensorscalibrate@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.hardware.sensorscalibrate@1.0-service.rc \
     vendor/realme/sm8250-common/proprietary/vendor/etc/init/vendor.qti.hardware.soter@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.hardware.soter@1.0-service.rc \
+    vendor/realme/sm8250-common/proprietary/vendor/etc/init/vendor.qti.media.c2@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.media.c2@1.0-service.rc \
     vendor/realme/sm8250-common/proprietary/vendor/etc/init/vendor.qti.rmt_storage.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.rmt_storage.rc \
     vendor/realme/sm8250-common/proprietary/vendor/etc/init/vendor.qti.tftp.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.tftp.rc \
     vendor/realme/sm8250-common/proprietary/vendor/etc/init/vendor.sensors.qti.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.sensors.qti.rc \
@@ -978,17 +931,24 @@ PRODUCT_COPY_FILES += \
     vendor/realme/sm8250-common/proprietary/vendor/etc/ltm_config_samsung_ams662zs01_dsc_cmd_21623.xml:$(TARGET_COPY_OUT_VENDOR)/etc/ltm_config_samsung_ams662zs01_dsc_cmd_21623.xml \
     vendor/realme/sm8250-common/proprietary/vendor/etc/ltm_config_samsung_ams662zs01_dsc_cmd_mode_panel.xml:$(TARGET_COPY_OUT_VENDOR)/etc/ltm_config_samsung_ams662zs01_dsc_cmd_mode_panel.xml \
     vendor/realme/sm8250-common/proprietary/vendor/etc/ltm_config_samsung_ams662zs01_dvt_dsc_cmd_mode_panel.xml:$(TARGET_COPY_OUT_VENDOR)/etc/ltm_config_samsung_ams662zs01_dvt_dsc_cmd_mode_panel.xml \
+    vendor/realme/sm8250-common/proprietary/vendor/etc/media_codecs_c2.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_codecs_c2.xml \
     vendor/realme/sm8250-common/proprietary/vendor/etc/media_codecs_kona.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_codecs_kona.xml \
     vendor/realme/sm8250-common/proprietary/vendor/etc/media_codecs_kona_vendor.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_codecs_kona_vendor.xml \
+    vendor/realme/sm8250-common/proprietary/vendor/etc/media_codecs_performance_c2.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_codecs_performance_c2.xml \
     vendor/realme/sm8250-common/proprietary/vendor/etc/media_codecs_performance_kona.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_codecs_performance_kona.xml \
     vendor/realme/sm8250-common/proprietary/vendor/etc/media_codecs_performance_kona_vendor.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_codecs_performance_kona_vendor.xml \
+    vendor/realme/sm8250-common/proprietary/vendor/etc/media_codecs_vendor_audio.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_codecs_vendor_audio.xml \
+    vendor/realme/sm8250-common/proprietary/vendor/etc/msm_irqbalance.conf:$(TARGET_COPY_OUT_VENDOR)/etc/msm_irqbalance.conf \
     vendor/realme/sm8250-common/proprietary/vendor/etc/permissions/vendor-qti-hardware-sensorscalibrate.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/vendor-qti-hardware-sensorscalibrate.xml \
     vendor/realme/sm8250-common/proprietary/vendor/etc/public.libraries.txt:$(TARGET_COPY_OUT_VENDOR)/etc/public.libraries.txt \
     vendor/realme/sm8250-common/proprietary/vendor/etc/qdcm_calib_data_samsung_ams662zs01_dsc_cmd_21623.xml:$(TARGET_COPY_OUT_VENDOR)/etc/qdcm_calib_data_samsung_ams662zs01_dsc_cmd_21623.xml \
     vendor/realme/sm8250-common/proprietary/vendor/etc/qdcm_calib_data_samsung_ams662zs01_dsc_cmd_mode_panel.xml:$(TARGET_COPY_OUT_VENDOR)/etc/qdcm_calib_data_samsung_ams662zs01_dsc_cmd_mode_panel.xml \
     vendor/realme/sm8250-common/proprietary/vendor/etc/qdcm_calib_data_samsung_ams662zs01_dvt_dsc_cmd_mode_panel.xml:$(TARGET_COPY_OUT_VENDOR)/etc/qdcm_calib_data_samsung_ams662zs01_dvt_dsc_cmd_mode_panel.xml \
     vendor/realme/sm8250-common/proprietary/vendor/etc/seccomp_policy/atfwd@2.0.policy:$(TARGET_COPY_OUT_VENDOR)/etc/seccomp_policy/atfwd@2.0.policy \
+    vendor/realme/sm8250-common/proprietary/vendor/etc/seccomp_policy/codec2.vendor.base-arm.policy:$(TARGET_COPY_OUT_VENDOR)/etc/seccomp_policy/codec2.vendor.base-arm.policy \
+    vendor/realme/sm8250-common/proprietary/vendor/etc/seccomp_policy/codec2.vendor.ext-arm.policy:$(TARGET_COPY_OUT_VENDOR)/etc/seccomp_policy/codec2.vendor.ext-arm.policy \
     vendor/realme/sm8250-common/proprietary/vendor/etc/seccomp_policy/imsrtp.policy:$(TARGET_COPY_OUT_VENDOR)/etc/seccomp_policy/imsrtp.policy \
+    vendor/realme/sm8250-common/proprietary/vendor/etc/seccomp_policy/mediacodec.policy:$(TARGET_COPY_OUT_VENDOR)/etc/seccomp_policy/mediacodec.policy \
     vendor/realme/sm8250-common/proprietary/vendor/etc/seccomp_policy/qti-systemd.policy:$(TARGET_COPY_OUT_VENDOR)/etc/seccomp_policy/qti-systemd.policy \
     vendor/realme/sm8250-common/proprietary/vendor/etc/seccomp_policy/vendor.qti.hardware.dsp.policy:$(TARGET_COPY_OUT_VENDOR)/etc/seccomp_policy/vendor.qti.hardware.dsp.policy \
     vendor/realme/sm8250-common/proprietary/vendor/etc/sensors/config/alsps.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/alsps.json \
@@ -1057,8 +1017,6 @@ PRODUCT_COPY_FILES += \
     vendor/realme/sm8250-common/proprietary/vendor/etc/ssg/ta_config.json:$(TARGET_COPY_OUT_VENDOR)/etc/ssg/ta_config.json \
     vendor/realme/sm8250-common/proprietary/vendor/etc/ssg/tz_whitelist.json:$(TARGET_COPY_OUT_VENDOR)/etc/ssg/tz_whitelist.json \
     vendor/realme/sm8250-common/proprietary/vendor/etc/thermal-engine.conf:$(TARGET_COPY_OUT_VENDOR)/etc/thermal-engine.conf \
-    vendor/realme/sm8250-common/proprietary/vendor/etc/wifi/p2p_supplicant_overlay.conf:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/p2p_supplicant_overlay.conf \
-    vendor/realme/sm8250-common/proprietary/vendor/etc/wifi/wpa_supplicant_overlay.conf:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/wpa_supplicant_overlay.conf \
     vendor/realme/sm8250-common/proprietary/vendor/firmware/CAMERA_ICP.elf:$(TARGET_COPY_OUT_VENDOR)/firmware/CAMERA_ICP.elf \
     vendor/realme/sm8250-common/proprietary/vendor/firmware/a650_gmu.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/a650_gmu.bin \
     vendor/realme/sm8250-common/proprietary/vendor/firmware/a650_sqe.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/a650_sqe.fw \
@@ -1105,6 +1063,8 @@ PRODUCT_COPY_FILES += \
     vendor/realme/sm8250-common/proprietary/vendor/lib/libOmxMpeghDecSw.so:$(TARGET_COPY_OUT_VENDOR)/lib/libOmxMpeghDecSw.so \
     vendor/realme/sm8250-common/proprietary/vendor/lib/libOmxMpeghEncSw.so:$(TARGET_COPY_OUT_VENDOR)/lib/libOmxMpeghEncSw.so \
     vendor/realme/sm8250-common/proprietary/vendor/lib/libOmxQcelp13Dec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libOmxQcelp13Dec.so \
+    vendor/realme/sm8250-common/proprietary/vendor/lib/libOmxVideoDSMode.so:$(TARGET_COPY_OUT_VENDOR)/lib/libOmxVideoDSMode.so \
+    vendor/realme/sm8250-common/proprietary/vendor/lib/libOmxVpp.so:$(TARGET_COPY_OUT_VENDOR)/lib/libOmxVpp.so \
     vendor/realme/sm8250-common/proprietary/vendor/lib/libOmxWmaDec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libOmxWmaDec.so \
     vendor/realme/sm8250-common/proprietary/vendor/lib/libacdb-fts.so:$(TARGET_COPY_OUT_VENDOR)/lib/libacdb-fts.so \
     vendor/realme/sm8250-common/proprietary/vendor/lib/libacdbloader.so:$(TARGET_COPY_OUT_VENDOR)/lib/libacdbloader.so \
@@ -1132,6 +1092,7 @@ PRODUCT_COPY_FILES += \
     vendor/realme/sm8250-common/proprietary/vendor/lib/libgcs-ipc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libgcs-ipc.so \
     vendor/realme/sm8250-common/proprietary/vendor/lib/libgcs-osal.so:$(TARGET_COPY_OUT_VENDOR)/lib/libgcs-osal.so \
     vendor/realme/sm8250-common/proprietary/vendor/lib/libgcs.so:$(TARGET_COPY_OUT_VENDOR)/lib/libgcs.so \
+    vendor/realme/sm8250-common/proprietary/vendor/lib/libgui1_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/libgui1_vendor.so \
     vendor/realme/sm8250-common/proprietary/vendor/lib/libhdmipassthru.so:$(TARGET_COPY_OUT_VENDOR)/lib/libhdmipassthru.so \
     vendor/realme/sm8250-common/proprietary/vendor/lib/libidl.so:$(TARGET_COPY_OUT_VENDOR)/lib/libidl.so \
     vendor/realme/sm8250-common/proprietary/vendor/lib/liblistensoundmodel2.so:$(TARGET_COPY_OUT_VENDOR)/lib/liblistensoundmodel2.so \
@@ -1140,6 +1101,12 @@ PRODUCT_COPY_FILES += \
     vendor/realme/sm8250-common/proprietary/vendor/lib/libmulawdec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmulawdec.so \
     vendor/realme/sm8250-common/proprietary/vendor/lib/libqcci_legacy.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqcci_legacy.so \
     vendor/realme/sm8250-common/proprietary/vendor/lib/libqcmaputils.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqcmaputils.so \
+    vendor/realme/sm8250-common/proprietary/vendor/lib/libqcodec2_base.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqcodec2_base.so \
+    vendor/realme/sm8250-common/proprietary/vendor/lib/libqcodec2_basecodec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqcodec2_basecodec.so \
+    vendor/realme/sm8250-common/proprietary/vendor/lib/libqcodec2_core.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqcodec2_core.so \
+    vendor/realme/sm8250-common/proprietary/vendor/lib/libqcodec2_platform.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqcodec2_platform.so \
+    vendor/realme/sm8250-common/proprietary/vendor/lib/libqcodec2_utils.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqcodec2_utils.so \
+    vendor/realme/sm8250-common/proprietary/vendor/lib/libqcodec2_v4l2codec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqcodec2_v4l2codec.so \
     vendor/realme/sm8250-common/proprietary/vendor/lib/libqdi.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqdi.so \
     vendor/realme/sm8250-common/proprietary/vendor/lib/libqdp.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqdp.so \
     vendor/realme/sm8250-common/proprietary/vendor/lib/libqmi.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqmi.so \
@@ -1190,74 +1157,39 @@ PRODUCT_COPY_FILES += \
     vendor/realme/sm8250-common/proprietary/vendor/lib64/btaudio_offload_if.so:$(TARGET_COPY_OUT_VENDOR)/lib64/btaudio_offload_if.so \
     vendor/realme/sm8250-common/proprietary/vendor/lib64/camera/com.qti.eeprom.truly_cmb433.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.eeprom.truly_cmb433.so \
     vendor/realme/sm8250-common/proprietary/vendor/lib64/camera/components/com.qti.camx.chiiqutils.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/components/com.qti.camx.chiiqutils.so \
-    vendor/realme/sm8250-common/proprietary/vendor/lib64/camera/components/com.qti.camx.chiiqutils.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/components/com.qti.camx.chiiqutils.so \
-    vendor/realme/sm8250-common/proprietary/vendor/lib64/camera/components/com.qti.eisv2.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/components/com.qti.eisv2.so \
     vendor/realme/sm8250-common/proprietary/vendor/lib64/camera/components/com.qti.eisv2.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/components/com.qti.eisv2.so \
     vendor/realme/sm8250-common/proprietary/vendor/lib64/camera/components/com.qti.eisv3.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/components/com.qti.eisv3.so \
-    vendor/realme/sm8250-common/proprietary/vendor/lib64/camera/components/com.qti.eisv3.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/components/com.qti.eisv3.so \
-    vendor/realme/sm8250-common/proprietary/vendor/lib64/camera/components/com.qti.hvx.addconstant.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/components/com.qti.hvx.addconstant.so \
     vendor/realme/sm8250-common/proprietary/vendor/lib64/camera/components/com.qti.hvx.addconstant.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/components/com.qti.hvx.addconstant.so \
     vendor/realme/sm8250-common/proprietary/vendor/lib64/camera/components/com.qti.hvx.binning.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/components/com.qti.hvx.binning.so \
-    vendor/realme/sm8250-common/proprietary/vendor/lib64/camera/components/com.qti.hvx.binning.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/components/com.qti.hvx.binning.so \
-    vendor/realme/sm8250-common/proprietary/vendor/lib64/camera/components/com.qti.node.customhwnode.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/components/com.qti.node.customhwnode.so \
     vendor/realme/sm8250-common/proprietary/vendor/lib64/camera/components/com.qti.node.customhwnode.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/components/com.qti.node.customhwnode.so \
     vendor/realme/sm8250-common/proprietary/vendor/lib64/camera/components/com.qti.node.depth.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/components/com.qti.node.depth.so \
-    vendor/realme/sm8250-common/proprietary/vendor/lib64/camera/components/com.qti.node.depth.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/components/com.qti.node.depth.so \
-    vendor/realme/sm8250-common/proprietary/vendor/lib64/camera/components/com.qti.node.dummyrtb.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/components/com.qti.node.dummyrtb.so \
     vendor/realme/sm8250-common/proprietary/vendor/lib64/camera/components/com.qti.node.dummyrtb.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/components/com.qti.node.dummyrtb.so \
     vendor/realme/sm8250-common/proprietary/vendor/lib64/camera/components/com.qti.node.dummysat.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/components/com.qti.node.dummysat.so \
-    vendor/realme/sm8250-common/proprietary/vendor/lib64/camera/components/com.qti.node.dummysat.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/components/com.qti.node.dummysat.so \
-    vendor/realme/sm8250-common/proprietary/vendor/lib64/camera/components/com.qti.node.eisv2.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/components/com.qti.node.eisv2.so \
     vendor/realme/sm8250-common/proprietary/vendor/lib64/camera/components/com.qti.node.eisv2.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/components/com.qti.node.eisv2.so \
     vendor/realme/sm8250-common/proprietary/vendor/lib64/camera/components/com.qti.node.eisv3.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/components/com.qti.node.eisv3.so \
-    vendor/realme/sm8250-common/proprietary/vendor/lib64/camera/components/com.qti.node.eisv3.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/components/com.qti.node.eisv3.so \
-    vendor/realme/sm8250-common/proprietary/vendor/lib64/camera/components/com.qti.node.fcv.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/components/com.qti.node.fcv.so \
     vendor/realme/sm8250-common/proprietary/vendor/lib64/camera/components/com.qti.node.fcv.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/components/com.qti.node.fcv.so \
     vendor/realme/sm8250-common/proprietary/vendor/lib64/camera/components/com.qti.node.gpu.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/components/com.qti.node.gpu.so \
-    vendor/realme/sm8250-common/proprietary/vendor/lib64/camera/components/com.qti.node.gpu.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/components/com.qti.node.gpu.so \
-    vendor/realme/sm8250-common/proprietary/vendor/lib64/camera/components/com.qti.node.memcpy.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/components/com.qti.node.memcpy.so \
     vendor/realme/sm8250-common/proprietary/vendor/lib64/camera/components/com.qti.node.memcpy.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/components/com.qti.node.memcpy.so \
     vendor/realme/sm8250-common/proprietary/vendor/lib64/camera/components/com.qti.node.stich.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/components/com.qti.node.stich.so \
-    vendor/realme/sm8250-common/proprietary/vendor/lib64/camera/components/com.qti.node.stich.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/components/com.qti.node.stich.so \
-    vendor/realme/sm8250-common/proprietary/vendor/lib64/camera/components/com.qti.node.swec.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/components/com.qti.node.swec.so \
     vendor/realme/sm8250-common/proprietary/vendor/lib64/camera/components/com.qti.node.swec.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/components/com.qti.node.swec.so \
     vendor/realme/sm8250-common/proprietary/vendor/lib64/camera/components/com.qti.node.swfusion.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/components/com.qti.node.swfusion.so \
-    vendor/realme/sm8250-common/proprietary/vendor/lib64/camera/components/com.qti.node.swfusion.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/components/com.qti.node.swfusion.so \
-    vendor/realme/sm8250-common/proprietary/vendor/lib64/camera/components/com.qti.node.swregistration.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/components/com.qti.node.swregistration.so \
     vendor/realme/sm8250-common/proprietary/vendor/lib64/camera/components/com.qti.node.swregistration.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/components/com.qti.node.swregistration.so \
     vendor/realme/sm8250-common/proprietary/vendor/lib64/camera/components/com.qti.stats.aec.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/components/com.qti.stats.aec.so \
-    vendor/realme/sm8250-common/proprietary/vendor/lib64/camera/components/com.qti.stats.aec.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/components/com.qti.stats.aec.so \
-    vendor/realme/sm8250-common/proprietary/vendor/lib64/camera/components/com.qti.stats.aecwrapper.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/components/com.qti.stats.aecwrapper.so \
     vendor/realme/sm8250-common/proprietary/vendor/lib64/camera/components/com.qti.stats.aecwrapper.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/components/com.qti.stats.aecwrapper.so \
     vendor/realme/sm8250-common/proprietary/vendor/lib64/camera/components/com.qti.stats.af.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/components/com.qti.stats.af.so \
-    vendor/realme/sm8250-common/proprietary/vendor/lib64/camera/components/com.qti.stats.af.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/components/com.qti.stats.af.so \
-    vendor/realme/sm8250-common/proprietary/vendor/lib64/camera/components/com.qti.stats.afd.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/components/com.qti.stats.afd.so \
     vendor/realme/sm8250-common/proprietary/vendor/lib64/camera/components/com.qti.stats.afd.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/components/com.qti.stats.afd.so \
     vendor/realme/sm8250-common/proprietary/vendor/lib64/camera/components/com.qti.stats.afwrapper.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/components/com.qti.stats.afwrapper.so \
-    vendor/realme/sm8250-common/proprietary/vendor/lib64/camera/components/com.qti.stats.afwrapper.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/components/com.qti.stats.afwrapper.so \
-    vendor/realme/sm8250-common/proprietary/vendor/lib64/camera/components/com.qti.stats.asd.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/components/com.qti.stats.asd.so \
     vendor/realme/sm8250-common/proprietary/vendor/lib64/camera/components/com.qti.stats.asd.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/components/com.qti.stats.asd.so \
     vendor/realme/sm8250-common/proprietary/vendor/lib64/camera/components/com.qti.stats.awb.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/components/com.qti.stats.awb.so \
-    vendor/realme/sm8250-common/proprietary/vendor/lib64/camera/components/com.qti.stats.awb.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/components/com.qti.stats.awb.so \
-    vendor/realme/sm8250-common/proprietary/vendor/lib64/camera/components/com.qti.stats.awbwrapper.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/components/com.qti.stats.awbwrapper.so \
     vendor/realme/sm8250-common/proprietary/vendor/lib64/camera/components/com.qti.stats.awbwrapper.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/components/com.qti.stats.awbwrapper.so \
     vendor/realme/sm8250-common/proprietary/vendor/lib64/camera/components/com.qti.stats.hafoverride.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/components/com.qti.stats.hafoverride.so \
-    vendor/realme/sm8250-common/proprietary/vendor/lib64/camera/components/com.qti.stats.hafoverride.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/components/com.qti.stats.hafoverride.so \
-    vendor/realme/sm8250-common/proprietary/vendor/lib64/camera/components/com.qti.stats.pdlibsony.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/components/com.qti.stats.pdlibsony.so \
     vendor/realme/sm8250-common/proprietary/vendor/lib64/camera/components/com.qti.stats.pdlibsony.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/components/com.qti.stats.pdlibsony.so \
     vendor/realme/sm8250-common/proprietary/vendor/lib64/camera/components/com.qti.stats.pdlibwrapper.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/components/com.qti.stats.pdlibwrapper.so \
-    vendor/realme/sm8250-common/proprietary/vendor/lib64/camera/components/com.qti.stats.pdlibwrapper.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/components/com.qti.stats.pdlibwrapper.so \
-    vendor/realme/sm8250-common/proprietary/vendor/lib64/camera/components/com.qti.stats.tracker.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/components/com.qti.stats.tracker.so \
     vendor/realme/sm8250-common/proprietary/vendor/lib64/camera/components/com.qti.stats.tracker.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/components/com.qti.stats.tracker.so \
     vendor/realme/sm8250-common/proprietary/vendor/lib64/camera/components/com.qtistatic.stats.aec.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/components/com.qtistatic.stats.aec.so \
-    vendor/realme/sm8250-common/proprietary/vendor/lib64/camera/components/com.qtistatic.stats.aec.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/components/com.qtistatic.stats.aec.so \
-    vendor/realme/sm8250-common/proprietary/vendor/lib64/camera/components/com.qtistatic.stats.af.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/components/com.qtistatic.stats.af.so \
     vendor/realme/sm8250-common/proprietary/vendor/lib64/camera/components/com.qtistatic.stats.af.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/components/com.qtistatic.stats.af.so \
     vendor/realme/sm8250-common/proprietary/vendor/lib64/camera/components/com.qtistatic.stats.awb.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/components/com.qtistatic.stats.awb.so \
-    vendor/realme/sm8250-common/proprietary/vendor/lib64/camera/components/com.qtistatic.stats.awb.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/components/com.qtistatic.stats.awb.so \
     vendor/realme/sm8250-common/proprietary/vendor/lib64/camera/components/com.qtistatic.stats.pdlib.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/components/com.qtistatic.stats.pdlib.so \
-    vendor/realme/sm8250-common/proprietary/vendor/lib64/camera/components/com.qtistatic.stats.pdlib.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/components/com.qtistatic.stats.pdlib.so \
-    vendor/realme/sm8250-common/proprietary/vendor/lib64/camera/components/libdepthmapwrapper.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/components/libdepthmapwrapper.so \
     vendor/realme/sm8250-common/proprietary/vendor/lib64/camera/components/libdepthmapwrapper.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/components/libdepthmapwrapper.so \
     vendor/realme/sm8250-common/proprietary/vendor/lib64/com.qti.feature2.anchorsync.so:$(TARGET_COPY_OUT_VENDOR)/lib64/com.qti.feature2.anchorsync.so \
     vendor/realme/sm8250-common/proprietary/vendor/lib64/com.qti.feature2.demux.so:$(TARGET_COPY_OUT_VENDOR)/lib64/com.qti.feature2.demux.so \
@@ -1316,8 +1248,6 @@ PRODUCT_COPY_FILES += \
     vendor/realme/sm8250-common/proprietary/vendor/lib64/lib-uceservice.so:$(TARGET_COPY_OUT_VENDOR)/lib64/lib-uceservice.so \
     vendor/realme/sm8250-common/proprietary/vendor/lib64/libAlacSwDec.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libAlacSwDec.so \
     vendor/realme/sm8250-common/proprietary/vendor/lib64/libApeSwDec.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libApeSwDec.so \
-    vendor/realme/sm8250-common/proprietary/vendor/lib64/libC2D2.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libC2D2.so \
-    vendor/realme/sm8250-common/proprietary/vendor/lib64/libCB.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libCB.so \
     vendor/realme/sm8250-common/proprietary/vendor/lib64/libFace3DTA.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libFace3DTA.so \
     vendor/realme/sm8250-common/proprietary/vendor/lib64/libFace3D_hlos.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libFace3D_hlos.so \
     vendor/realme/sm8250-common/proprietary/vendor/lib64/libFlacSwDec.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libFlacSwDec.so \
@@ -1333,16 +1263,20 @@ PRODUCT_COPY_FILES += \
     vendor/realme/sm8250-common/proprietary/vendor/lib64/libOmxAmrwbplusDec.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libOmxAmrwbplusDec.so \
     vendor/realme/sm8250-common/proprietary/vendor/lib64/libOmxApeDec.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libOmxApeDec.so \
     vendor/realme/sm8250-common/proprietary/vendor/lib64/libOmxApeDecSw.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libOmxApeDecSw.so \
+    vendor/realme/sm8250-common/proprietary/vendor/lib64/libOmxCore.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libOmxCore.so \
     vendor/realme/sm8250-common/proprietary/vendor/lib64/libOmxEvrcDec.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libOmxEvrcDec.so \
     vendor/realme/sm8250-common/proprietary/vendor/lib64/libOmxG711Dec.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libOmxG711Dec.so \
     vendor/realme/sm8250-common/proprietary/vendor/lib64/libOmxMpeghEncSw.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libOmxMpeghEncSw.so \
     vendor/realme/sm8250-common/proprietary/vendor/lib64/libOmxQcelp13Dec.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libOmxQcelp13Dec.so \
+    vendor/realme/sm8250-common/proprietary/vendor/lib64/libOmxVenc.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libOmxVenc.so \
     vendor/realme/sm8250-common/proprietary/vendor/lib64/libOmxVpp.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libOmxVpp.so \
     vendor/realme/sm8250-common/proprietary/vendor/lib64/libOmxWmaDec.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libOmxWmaDec.so \
     vendor/realme/sm8250-common/proprietary/vendor/lib64/libQ6MSFR_manager_stub.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libQ6MSFR_manager_stub.so \
     vendor/realme/sm8250-common/proprietary/vendor/lib64/libQSEEComAPI.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libQSEEComAPI.so \
     vendor/realme/sm8250-common/proprietary/vendor/lib64/libQTEEConnector_listener.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libQTEEConnector_listener.so \
     vendor/realme/sm8250-common/proprietary/vendor/lib64/libQTEEConnector_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libQTEEConnector_vendor.so \
+    vendor/realme/sm8250-common/proprietary/vendor/lib64/libSecureUILib.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libSecureUILib.so \
+    vendor/realme/sm8250-common/proprietary/vendor/lib64/libStDrvInt.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libStDrvInt.so \
     vendor/realme/sm8250-common/proprietary/vendor/lib64/libadsp_default_listener.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libadsp_default_listener.so \
     vendor/realme/sm8250-common/proprietary/vendor/lib64/libadsprpc.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libadsprpc.so \
     vendor/realme/sm8250-common/proprietary/vendor/lib64/libbitmlengine.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libbitmlengine.so \
@@ -1416,9 +1350,18 @@ PRODUCT_COPY_FILES += \
     vendor/realme/sm8250-common/proprietary/vendor/lib64/libpdmapper.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libpdmapper.so \
     vendor/realme/sm8250-common/proprietary/vendor/lib64/libpdnotifier.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libpdnotifier.so \
     vendor/realme/sm8250-common/proprietary/vendor/lib64/libperipheral_client.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libperipheral_client.so \
+    vendor/realme/sm8250-common/proprietary/vendor/lib64/libpwirisIoctlWrapper.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libpwirisIoctlWrapper.so \
+    vendor/realme/sm8250-common/proprietary/vendor/lib64/libpwirisfeature.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libpwirisfeature.so \
+    vendor/realme/sm8250-common/proprietary/vendor/lib64/libpwirishalwrapper.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libpwirishalwrapper.so \
     vendor/realme/sm8250-common/proprietary/vendor/lib64/libqcbor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libqcbor.so \
     vendor/realme/sm8250-common/proprietary/vendor/lib64/libqcci_legacy.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libqcci_legacy.so \
     vendor/realme/sm8250-common/proprietary/vendor/lib64/libqcmaputils.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libqcmaputils.so \
+    vendor/realme/sm8250-common/proprietary/vendor/lib64/libqcodec2_base.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libqcodec2_base.so \
+    vendor/realme/sm8250-common/proprietary/vendor/lib64/libqcodec2_basecodec.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libqcodec2_basecodec.so \
+    vendor/realme/sm8250-common/proprietary/vendor/lib64/libqcodec2_core.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libqcodec2_core.so \
+    vendor/realme/sm8250-common/proprietary/vendor/lib64/libqcodec2_platform.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libqcodec2_platform.so \
+    vendor/realme/sm8250-common/proprietary/vendor/lib64/libqcodec2_utils.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libqcodec2_utils.so \
+    vendor/realme/sm8250-common/proprietary/vendor/lib64/libqcodec2_v4l2codec.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libqcodec2_v4l2codec.so \
     vendor/realme/sm8250-common/proprietary/vendor/lib64/libqcrilFramework.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libqcrilFramework.so \
     vendor/realme/sm8250-common/proprietary/vendor/lib64/libqcrildatactl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libqcrildatactl.so \
     vendor/realme/sm8250-common/proprietary/vendor/lib64/libqdi.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libqdi.so \
@@ -1450,6 +1393,7 @@ PRODUCT_COPY_FILES += \
     vendor/realme/sm8250-common/proprietary/vendor/lib64/libscveObjectTracker.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libscveObjectTracker.so \
     vendor/realme/sm8250-common/proprietary/vendor/lib64/libscveObjectTracker_stub.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libscveObjectTracker_stub.so \
     vendor/realme/sm8250-common/proprietary/vendor/lib64/libsdsprpc.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsdsprpc.so \
+    vendor/realme/sm8250-common/proprietary/vendor/lib64/libsecureui.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsecureui.so \
     vendor/realme/sm8250-common/proprietary/vendor/lib64/libsensorcal.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsensorcal.so \
     vendor/realme/sm8250-common/proprietary/vendor/lib64/libsensorslog.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsensorslog.so \
     vendor/realme/sm8250-common/proprietary/vendor/lib64/libsettings.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsettings.so \
@@ -1471,6 +1415,7 @@ PRODUCT_COPY_FILES += \
     vendor/realme/sm8250-common/proprietary/vendor/lib64/libthreadutils.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libthreadutils.so \
     vendor/realme/sm8250-common/proprietary/vendor/lib64/libtime_genoff.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libtime_genoff.so \
     vendor/realme/sm8250-common/proprietary/vendor/lib64/libtrustedapploader.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libtrustedapploader.so \
+    vendor/realme/sm8250-common/proprietary/vendor/lib64/libvppclient.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libvppclient.so \
     vendor/realme/sm8250-common/proprietary/vendor/lib64/libvpphcp.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libvpphcp.so \
     vendor/realme/sm8250-common/proprietary/vendor/lib64/libvpphvx.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libvpphvx.so \
     vendor/realme/sm8250-common/proprietary/vendor/lib64/libvpplibrary.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libvpplibrary.so \
@@ -1495,7 +1440,6 @@ PRODUCT_COPY_FILES += \
     vendor/realme/sm8250-common/proprietary/vendor/lib64/vendor.oplus.hardware.cameraextension-V1-ndk_platform.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.oplus.hardware.cameraextension-V1-ndk_platform.so \
     vendor/realme/sm8250-common/proprietary/vendor/lib64/vendor.oplus.hardware.cammidasservice-V1-ndk_platform.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.oplus.hardware.cammidasservice-V1-ndk_platform.so \
     vendor/realme/sm8250-common/proprietary/vendor/lib64/vendor.oplus.hardware.cammidasservice@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.oplus.hardware.cammidasservice@1.0.so \
-    vendor/realme/sm8250-common/proprietary/vendor/lib64/vendor.oplus.hardware.commondcs-V1-ndk_platform.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.oplus.hardware.commondcs-V1-ndk_platform.so \
     vendor/realme/sm8250-common/proprietary/vendor/lib64/vendor.oplus.hardware.extcamera@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.oplus.hardware.extcamera@1.0.so \
     vendor/realme/sm8250-common/proprietary/vendor/lib64/vendor.qti.data.factory@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.data.factory@2.0.so \
     vendor/realme/sm8250-common/proprietary/vendor/lib64/vendor.qti.data.factory@2.1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.data.factory@2.1.so \
@@ -1539,7 +1483,6 @@ PRODUCT_COPY_FILES += \
     vendor/realme/sm8250-common/proprietary/vendor/lib64/vendor.qti.hardware.radio.internal.deviceinfo@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.radio.internal.deviceinfo@1.0.so \
     vendor/realme/sm8250-common/proprietary/vendor/lib64/vendor.qti.hardware.radio.lpa@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.radio.lpa@1.0.so \
     vendor/realme/sm8250-common/proprietary/vendor/lib64/vendor.qti.hardware.radio.lpa@1.1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.radio.lpa@1.1.so \
-    vendor/realme/sm8250-common/proprietary/vendor/lib64/vendor.qti.hardware.radio.lpa@1.1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.radio.lpa@1.1.so \
     vendor/realme/sm8250-common/proprietary/vendor/lib64/vendor.qti.hardware.radio.lpa@1.2.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.radio.lpa@1.2.so \
     vendor/realme/sm8250-common/proprietary/vendor/lib64/vendor.qti.hardware.radio.qcrilhook@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.radio.qcrilhook@1.0.so \
     vendor/realme/sm8250-common/proprietary/vendor/lib64/vendor.qti.hardware.radio.qtiradio@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.radio.qtiradio@1.0.so \
@@ -1562,7 +1505,7 @@ PRODUCT_COPY_FILES += \
     vendor/realme/sm8250-common/proprietary/vendor/lib64/vendor.qti.hardware.vpp@1.1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.vpp@1.1.so \
     vendor/realme/sm8250-common/proprietary/vendor/lib64/vendor.qti.hardware.vpp@1.2.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.vpp@1.2.so \
     vendor/realme/sm8250-common/proprietary/vendor/lib64/vendor.qti.hardware.vpp@1.3.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.vpp@1.3.so \
-    vendor/realme/sm8250-common/proprietary/vendor/lib64/vendor.qti.hardware.vpp@1.4.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.vpp@1.4.so \
+    vendor/realme/sm8250-common/proprietary/vendor/lib64/vendor.qti.hardware.vpp@1.4.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.vpp@1.4.so \
     vendor/realme/sm8250-common/proprietary/vendor/lib64/vendor.qti.ims.callcapability@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.ims.callcapability@1.0.so \
     vendor/realme/sm8250-common/proprietary/vendor/lib64/vendor.qti.ims.callinfo@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.ims.callinfo@1.0.so \
     vendor/realme/sm8250-common/proprietary/vendor/lib64/vendor.qti.ims.factory@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.ims.factory@1.0.so \
